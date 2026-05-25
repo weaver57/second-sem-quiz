@@ -11,7 +11,7 @@ function fmtTime(s) {
   return `${m}m ${sec.toString().padStart(2, '0')}s`
 }
 
-export default function Leaderboard({ userName, onBack }) {
+export default function Leaderboard({ userName, onBack, onToggleDark }) {
   const [tab, setTab]       = useState('Sociology')
   const [rows, setRows]     = useState([])
   const [myHistory, setMyHistory] = useState([])
@@ -55,6 +55,7 @@ export default function Leaderboard({ userName, onBack }) {
     <div className="lb">
       <header className="lb-header">
         <button className="btn btn-ghost btn-sm" onClick={onBack}>← Back</button>
+        <button className="dark-toggle" onClick={onToggleDark} aria-label="Toggle dark mode" />
         <span className="lb-title">Leaderboard</span>
         <div />
       </header>

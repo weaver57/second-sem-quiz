@@ -23,6 +23,18 @@ export default function App() {
     }
   }, [])
 
+  // ADD after the existing useEffect
+  useEffect(() => {
+    const saved = localStorage.getItem('quiz_theme') || 'light'
+    document.documentElement.dataset.theme = saved
+  }, [])
+
+  function toggleDark() {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'
+    document.documentElement.dataset.theme = next
+    localStorage.setItem('quiz_theme', next)
+  }
+
   function handleNameDone(name) {
     setUserName(name)
     setView('home')
@@ -48,7 +60,9 @@ export default function App() {
   return (
     <>
       {view === 'name' && (
-        <NameEntry onDone={handleNameDone} />
+        <NameEntry onDone={handleNameDone}
+        onToggleDark={toggleDark}
+        />
       )}
 
       {view === 'home' && (
@@ -56,6 +70,7 @@ export default function App() {
           userName={userName}
           onStart={handleStart}
           onLeaderboard={() => setView('leaderboard')}
+          onToggleDark={toggleDark}
         />
       )}
 
@@ -65,6 +80,7 @@ export default function App() {
           userName={userName}
           onFinish={handleFinish}
           onExit={() => setView('home')}
+          onToggleDark={toggleDark}
         />
       )}
 
@@ -75,6 +91,7 @@ export default function App() {
           userName={userName}
           onRetry={handleRetry}
           onHome={() => setView('home')}
+          onToggleDark={toggleDark}
         />
       )}
 
@@ -82,6 +99,7 @@ export default function App() {
         <Leaderboard
           userName={userName}
           onBack={() => setView('home')}
+          onToggleDark={toggleDark}
         />
       )}
     </>

@@ -6,7 +6,7 @@ import QuestionCard from './QuestionCard.jsx'
 import ReviewPanel from './ReviewPanel.jsx'
 import './Quiz.css'
 
-export default function Quiz({ subject, userName, onFinish, onExit }) {
+export default function Quiz({ subject, userName, onFinish, onExit, onToggleDark }) {
   const filtered = QUESTIONS[subject] || []
   const quiz = useQuiz(filtered)
   const [showPanel, setShowPanel] = useState(false)
@@ -49,6 +49,7 @@ export default function Quiz({ subject, userName, onFinish, onExit }) {
           <button className="btn btn-ghost btn-sm" onClick={() => setShowPanel(p => !p)}>
             Map {markedArr.length > 0 && <span className="quiz-bar__badge">{markedArr.length}</span>}
           </button>
+          <button className="dark-toggle" onClick={onToggleDark} aria-label="Toggle dark mode" />
           <Timer timeLeft={quiz.timeLeft} />
         </div>
       </header>

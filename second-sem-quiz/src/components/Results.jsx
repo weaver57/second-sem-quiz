@@ -18,7 +18,7 @@ function fmtTime(s) {
   return `${m}m ${sec.toString().padStart(2, '0')}s`
 }
 
-export default function Results({ results, subject, userName, onRetry, onHome }) {
+export default function Results({ results, subject, userName, onRetry, onHome, onToggleDark }) {
   const { correct, incorrect, skipped, total, percentage, timeTaken, breakdown } = results
   const [saved, setSaved] = useState(false)
   const [tab, setTab] = useState('overview') // overview | breakdown
@@ -68,6 +68,7 @@ export default function Results({ results, subject, userName, onRetry, onHome })
       <header className="results-header">
         <span className={`tag tag-${subject.toLowerCase()}`}>{subject}</span>
         <div className="results-header__user">{userName}</div>
+        <button className="dark-toggle" onClick={onToggleDark} aria-label="Toggle dark mode" />
       </header>
 
       <main className="results-main">

@@ -25,7 +25,7 @@ const SUBJECTS = [
   },
 ]
 
-export default function SubjectSelect({ userName, onStart, onLeaderboard }) {
+export default function SubjectSelect({ userName, onStart, onLeaderboard, onToggleDark }) {
   return (
     <div className="subject-select">
       <header className="ss-header">
@@ -34,6 +34,7 @@ export default function SubjectSelect({ userName, onStart, onLeaderboard }) {
           <span className="ss-user__label">Signed in as</span>
           <span className="ss-user__name">{userName}</span>
         </div>
+        <button className="dark-toggle" onClick={onToggleDark} aria-label="Toggle dark mode" />
       </header>
 
       <main className="ss-main">

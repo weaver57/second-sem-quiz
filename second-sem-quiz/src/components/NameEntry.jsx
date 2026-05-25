@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './NameEntry.css'
 
-export default function NameEntry({ onDone }) {
+export default function NameEntry({ onDone, onToggleDark }) {
   const [name, setName] = useState('')
   const [error, setError] = useState('')
 
@@ -16,6 +16,7 @@ export default function NameEntry({ onDone }) {
   return (
     <div className="name-entry">
       <div className="name-entry__inner">
+        <button className="dark-toggle" onClick={onToggleDark} aria-label="Toggle dark mode" />
         <div className="name-entry__logo">CBT PREP</div>
         <h1 className="name-entry__title">Welcome.</h1>
         <p className="name-entry__sub">
