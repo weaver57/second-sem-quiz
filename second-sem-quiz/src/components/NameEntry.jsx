@@ -30,7 +30,6 @@ export default function NameEntry({ onDone, onToggleDark }) {
             className="name-entry__input"
             type="text"
             placeholder="Your name or roll number"
-            /* NEW */
             value={name}
             onChange={e => { setName(e.target.value); setError('') }}
             onKeyDown={e => e.key === 'Enter' && handleSubmit()}
@@ -38,7 +37,6 @@ export default function NameEntry({ onDone, onToggleDark }) {
             autoComplete="name"
             maxLength={40}
           />
-          /* NEW */
           <div className="name-entry__error-wrap">
             {error && <p className="name-entry__error">{error}</p>}
           </div>
