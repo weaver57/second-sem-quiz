@@ -1,8 +1,5 @@
-import { useEffect, useState } from 'react'
-import {
-  PieChart, Pie, Cell, Tooltip, ResponsiveContainer,
-  BarChart, Bar, XAxis, YAxis, CartesianGrid,
-} from 'recharts'
+import { useEffect, useState, useRef } from 'react'
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid} from 'recharts'
 import { supabase } from '../lib/supabase.js'
 import './Results.css'
 
