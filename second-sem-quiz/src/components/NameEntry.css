@@ -77,3 +77,9 @@
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 600px) {
+  .name-entry__inner { padding: 0 4px; }
+  .name-entry__title { font-size: 2.4rem; }
+  .name-entry__sub { font-size: .88rem; margin-bottom: 24px; }
+}

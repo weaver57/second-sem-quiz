@@ -105,3 +105,9 @@ body {
 .tag-sociology  { background: var(--blue-light);  color: var(--blue); }
 .tag-culturology{ background: var(--amber-light); color: var(--amber-dim); }
 .tag-history    { background: var(--green-light); color: var(--green); }
+
+@media (max-width: 768px) {
+  .btn { padding: 8px 14px; font-size: .85rem; }
+  .btn-lg { padding: 12px 20px; font-size: .95rem; }
+  .btn-sm { padding: 5px 10px; font-size: .76rem; }
+}

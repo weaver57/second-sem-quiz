@@ -122,3 +122,16 @@
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+  .ss-header { padding: 14px 20px; }
+  .ss-title  { font-size: 2rem; }
+  .ss-main   { padding: 32px 16px; }
+  .ss-grid   { gap: 12px; }
+  .ss-card   { padding: 20px 18px; }
+}
+
+@media (max-width: 480px) {
+  .ss-title { font-size: 1.7rem; }
+  .ss-user__label { display: none; }
+}

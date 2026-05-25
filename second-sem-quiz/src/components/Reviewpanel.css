@@ -1,7 +1,7 @@
 .review-panel {
   position: fixed;
   top: 0; right: 0;
-  width: 280px;
+  width: min(280px, 92vw);
   height: 100vh;
   background: #fff;
   border-left: 1px solid var(--border);
@@ -104,3 +104,8 @@
 .rp-leg--answered   { background: var(--canvas-2); color: var(--ink); border: 1px solid var(--ink); }
 .rp-leg--marked     { background: var(--amber-light); color: var(--amber-dim); border: 1px solid var(--amber); }
 .rp-leg--unanswered { background: #fff; color: var(--ink-faint); border: 1px solid var(--border); }
+
+@media (max-width: 480px) {
+  .review-panel { width: 100vw; }
+  .review-panel__grid { padding: 12px 16px; }
+}

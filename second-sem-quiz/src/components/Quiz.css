@@ -153,3 +153,19 @@
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+  .quiz-bar { padding: 10px 14px; gap: 6px; }
+  .quiz-bar__left .tag { display: none; }
+  .quiz-main { padding: 24px 16px 24px; gap: 24px; }
+}
+
+@media (max-width: 480px) {
+  .quiz-bar { flex-wrap: wrap; row-gap: 8px; }
+  .quiz-bar__left  { flex: none; }
+  .quiz-bar__center { order: 3; flex: 1 0 100%; justify-content: flex-start; }
+  .quiz-bar__right { flex: 1; justify-content: flex-end; }
+  .quiz-nav { flex-wrap: wrap; gap: 8px; }
+  .quiz-nav__stats { flex: 1 0 100%; justify-content: center; order: -1; }
+  .quiz-dialog { padding: 20px; }
+}

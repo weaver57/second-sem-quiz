@@ -118,3 +118,21 @@
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+  .lb-header { padding: 14px 20px; }
+  .lb-tabs   { padding: 16px 20px 0; }
+  .lb-view-toggle { padding: 14px 20px 0; }
+  .lb-main   { padding: 16px; }
+}
+
+@media (max-width: 480px) {
+  /* Hide "Time" column on phones */
+  .lb-table__head,
+  .lb-table__row { grid-template-columns: 36px 1fr 70px 50px; }
+  .lb-table__head span:last-child,
+  .lb-table__row  .lb-time { display: none; }
+
+  .lb-subject-tab { padding: 8px 12px; font-size: .8rem; }
+  .lb-table__row  { padding: 11px 12px; }
+}
