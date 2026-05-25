@@ -1,6 +1,6 @@
 import './ReviewPanel.css'
 
-export default function ReviewPanel({ questions, answers, marked, currentIndex, onGoTo, onClose }) {
+export default function ReviewPanel({ questions, answers, marked, lockedQuestions, currentIndex, onGoTo, onClose }) {
   return (
     <div className="review-panel">
       <div className="review-panel__header">
@@ -12,6 +12,7 @@ export default function ReviewPanel({ questions, answers, marked, currentIndex, 
           const isAnswered = !!answers[q.id]
           const isMarked   = marked.has(q.id)
           const isCurrent  = i === currentIndex
+          const isLocked   = lockedQuestions.has(q.id)  // ← add this line
           return (
             <button
               key={q.id}
@@ -20,6 +21,7 @@ export default function ReviewPanel({ questions, answers, marked, currentIndex, 
                 isCurrent  ? 'is-current'  : '',
                 isAnswered ? 'is-answered' : '',
                 isMarked   ? 'is-marked'   : '',
+                isLocked   ? 'is-locked'   : '',
               ].join(' ')}
               onClick={() => { onGoTo(i); onClose() }}
               title={`Q${i + 1}${isMarked ? ' · Marked' : ''}${isAnswered ? ' · Answered' : ''}`}
@@ -33,6 +35,7 @@ export default function ReviewPanel({ questions, answers, marked, currentIndex, 
         <span className="rp-leg rp-leg--answered">Answered</span>
         <span className="rp-leg rp-leg--marked">Marked</span>
         <span className="rp-leg rp-leg--unanswered">Unanswered</span>
+        <span className="rp-leg rp-leg--locked">Timed out</span>
       </div>
     </div>
   )

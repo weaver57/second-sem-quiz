@@ -198,6 +198,17 @@
   gap: 8px;
 }
 
+/* Base badge — was missing, modifiers had no base to build on */
+.rb-item__badge {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: .72rem;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  letter-spacing: .03em;
+}
+
 .rb-item--correct   { border-left: 3px solid var(--green); }
 .rb-item--incorrect { border-left: 3px solid var(--red); }
 .rb-item--skipped   { border-left: 3px solid var(--ink-faint); }

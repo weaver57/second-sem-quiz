@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { QUESTIONS } from '../data/questions.js'
 import { useQuiz } from '../hooks/useQuiz.js'
 import Timer from './Timer.jsx'
@@ -12,14 +12,37 @@ export default function Quiz({ subject, userName, onFinish, onExit, onToggleDark
   const [showPanel, setShowPanel] = useState(false)
   const [confirmExit, setConfirmExit] = useState(false)
 
-  // When finished, pass results up
-  if (quiz.finished && quiz.results) {
-    onFinish(quiz.results, subject)
-    return null
-  }
+  const [localAnswer, setLocalAnswer] = useState(null)
+  const confirmedIds = useRef(new Set())
+  const [confirmedCount, setConfirmedCount] = useState(0)
 
-  const answered  = Object.keys(quiz.answers).length
+  useEffect(() => {
+    if (quiz.finished && quiz.results) {
+      onFinish(quiz.results, subject)
+    }
+  }, [quiz.finished]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    setLocalAnswer(quiz.answers[quiz.current?.id] ?? null)
+  }, [quiz.index]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  if (quiz.finished) return null
   const markedArr = Array.from(quiz.marked)
+
+  function commitCurrent() {
+    if (localAnswer !== null && quiz.current && !quiz.lockedQuestions.has(quiz.current.id)) {
+      quiz.answer(localAnswer)
+      if (!confirmedIds.current.has(quiz.current.id)) {
+        confirmedIds.current.add(quiz.current.id)
+        setConfirmedCount(confirmedIds.current.size)
+      }
+    }
+  }
+  function handleNext()   { commitCurrent(); quiz.goNext() }
+  function handlePrev()   { commitCurrent(); quiz.goPrev() }
+  function handleGoTo(i)  { commitCurrent(); quiz.goTo(i); setShowPanel(false) }
+  function handleSubmit() { commitCurrent(); quiz.finishEarly() }
+
 
   return (
     <div className="quiz">
@@ -69,8 +92,9 @@ export default function Quiz({ subject, userName, onFinish, onExit, onToggleDark
           <QuestionCard
             key={quiz.current?.id}
             question={quiz.current}
-            chosen={quiz.answers[quiz.current?.id]}
-            onAnswer={quiz.answer}
+            chosen={localAnswer}
+            onAnswer={setLocalAnswer}
+            isLocked={quiz.lockedQuestions.has(quiz.current?.id)}
           />
         </div>
 
@@ -78,25 +102,21 @@ export default function Quiz({ subject, userName, onFinish, onExit, onToggleDark
         <div className="quiz-nav">
           <button
             className="btn btn-ghost"
-            onClick={quiz.goPrev}
+            onClick={handlePrev}
             disabled={quiz.index === 0}
           >
             ← Previous
           </button>
 
           <div className="quiz-nav__stats">
-            <span>{answered} answered</span>
+            <span>{confirmedCount} answered</span>
             {markedArr.length > 0 && <span>{markedArr.length} marked</span>}
           </div>
 
           {quiz.index < quiz.total - 1 ? (
-            <button className="btn btn-primary" onClick={() => quiz.goNext()}>
-              Next →
-            </button>
+            <button className="btn btn-primary" onClick={handleNext}>Next →</button>
           ) : (
-            <button className="btn btn-amber" onClick={quiz.finishEarly}>
-              Submit Exam
-            </button>
+            <button className="btn btn-amber" onClick={handleSubmit}>Submit Exam</button>
           )}
         </div>
       </main>
@@ -107,8 +127,9 @@ export default function Quiz({ subject, userName, onFinish, onExit, onToggleDark
           questions={quiz.questions}
           answers={quiz.answers}
           marked={quiz.marked}
+          lockedQuestions={quiz.lockedQuestions}
           currentIndex={quiz.index}
-          onGoTo={quiz.goTo}
+          onGoTo={handleGoTo}
           onClose={() => setShowPanel(false)}
         />
       )}

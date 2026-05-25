@@ -6,6 +6,7 @@ import {
 import { supabase } from '../lib/supabase.js'
 import './Results.css'
 
+
 const COLORS = {
   correct:   '#15803d',
   incorrect: '#b91c1c',
@@ -23,7 +24,12 @@ export default function Results({ results, subject, userName, onRetry, onHome, o
   const [saved, setSaved] = useState(false)
   const [tab, setTab] = useState('overview') // overview | breakdown
 
+  const savedRef = useRef(false)
+
   useEffect(() => {
+    if (savedRef.current) return
+    savedRef.current = true
+
     async function save() {
       try {
         await supabase.from('scores').insert({

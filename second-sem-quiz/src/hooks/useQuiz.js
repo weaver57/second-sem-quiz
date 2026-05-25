@@ -19,6 +19,10 @@ export function useQuiz(questions) {
   const [startTime] = useState(Date.now())
   const [timeTaken, setTimeTaken] = useState(0)
   const timerRef = useRef(null)
+  const timedOutRef = useRef(false)
+  const [lockedQuestions, setLockedQuestions] = useState(new Set())
+  const consecutiveTimeoutsRef = useRef(0)
+  const TIMEOUT_EXIT_LIMIT = 5
 
   // Shuffle questions on mount
   useEffect(() => {
@@ -35,9 +39,8 @@ export function useQuiz(questions) {
     timerRef.current = setInterval(() => {
       setTimeLeft(t => {
         if (t <= 1) {
-          // Auto-advance on timeout
           clearInterval(timerRef.current)
-          goNext(true)
+          timedOutRef.current = true
           return 0
         }
         return t - 1
@@ -45,6 +48,26 @@ export function useQuiz(questions) {
     }, 1000)
     return () => clearInterval(timerRef.current)
   }, [index, shuffled.length, finished])
+
+  useEffect(() => {
+    if (timeLeft !== 0 || !timedOutRef.current) return
+    timedOutRef.current = false
+
+    setLockedQuestions(prev => {
+      const next = new Set(prev)
+      if (current) next.add(current.id)
+      return next
+    })
+
+    consecutiveTimeoutsRef.current += 1
+    if (consecutiveTimeoutsRef.current >= TIMEOUT_EXIT_LIMIT) {
+      clearInterval(timerRef.current)
+      setTimeTaken(Math.round((Date.now() - startTime) / 1000))
+      setFinished(true)
+      return
+    }
+    goNext(true)
+  }, [timeLeft]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const goNext = useCallback((fromTimer = false) => {
     setIndex(i => {
@@ -68,8 +91,10 @@ export function useQuiz(questions) {
 
   const answer = useCallback((option) => {
     if (!current) return
+    if (lockedQuestions.has(current.id)) return
+    consecutiveTimeoutsRef.current = 0
     setAnswers(prev => ({ ...prev, [current.id]: option }))
-  }, [current])
+  }, [current, lockedQuestions])
 
   const toggleMark = useCallback(() => {
     if (!current) return
@@ -106,6 +131,7 @@ export function useQuiz(questions) {
     goPrev,
     goTo,
     finishEarly,
+    lockedQuestions,
   }
 }
 

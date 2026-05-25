@@ -2,26 +2,27 @@ import './SubjectSelect.css'
 import { QUESTIONS } from '../data/questions.js'
 
 const SUBJECTS = [
+  /* NEW */
   {
     id: 'Sociology',
     label: 'Sociology',
     desc: 'Social behaviour, institutions, and conflict theory.',
     color: 'blue',
-    count: QUESTIONS['Sociology'].length,
+    count: (QUESTIONS['Sociology'] || []).length,
   },
   {
     id: 'Culturology',
     label: 'Culturology',
     desc: 'Culture, civilisation, and the philosophy of human societies.',
     color: 'amber',
-    count: QUESTIONS['Culturology'].length,
+    count: (QUESTIONS['Culturology'] || []).length,
   },
   {
     id: 'History',
     label: 'History',
     desc: 'Historical events, figures, and processes.',
     color: 'green',
-    count: QUESTIONS['History'].length,
+    count: (QUESTIONS['History'] || []).length,
   },
 ]
 
