@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink:        #0f0e0d;
+  --ink-soft:   #4a4845;
+  --ink-faint:  #9a9693;
+  --canvas:     #f7f5f2;
+  --canvas-2:   #edeae5;
+  --canvas-3:   #e3dfd9;
+  --amber:      #d97706;
+  --amber-light:#fef3c7;
+  --amber-dim:  #92400e;
+  --green:      #15803d;
+  --green-light:#dcfce7;
+  --red:        #b91c1c;
+  --red-light:  #fee2e2;
+  --blue:       #1d4ed8;
+  --blue-light: #dbeafe;
+  --border:     #d4cfc8;
+  --shadow-sm:  0 1px 3px rgba(15,14,13,.08);
+  --shadow:     0 4px 16px rgba(15,14,13,.10);
+  --shadow-lg:  0 8px 32px rgba(15,14,13,.14);
+  --radius:     6px;
+  --radius-lg:  12px;
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', 'Courier New', monospace;
+  --transition:   150ms cubic-bezier(.4,0,.2,1);
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--canvas);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Shared utilities ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-family: var(--font-body);
+  font-size: .9rem;
+  font-weight: 500;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition);
+  white-space: nowrap;
+  letter-spacing: .01em;
+}
+.btn:active { transform: scale(.97); }
+.btn-primary {
+  background: var(--ink);
+  color: var(--canvas);
+  border-color: var(--ink);
+}
+.btn-primary:hover { background: var(--ink-soft); border-color: var(--ink-soft); }
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--border);
+}
+.btn-ghost:hover { background: var(--canvas-2); }
+.btn-amber {
+  background: var(--amber);
+  color: #fff;
+  border-color: var(--amber);
+}
+.btn-amber:hover { background: var(--amber-dim); border-color: var(--amber-dim); }
+.btn-danger {
+  background: var(--red-light);
+  color: var(--red);
+  border-color: #fca5a5;
+}
+.btn-danger:hover { background: #fecaca; }
+.btn-lg { padding: 14px 28px; font-size: 1rem; }
+.btn-sm { padding: 6px 14px; font-size: .8rem; }
+
+/* ── Card ── */
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ── Tag / badge ── */
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  letter-spacing: .02em;
+}
+.tag-sociology  { background: var(--blue-light);  color: var(--blue); }
+.tag-culturology{ background: var(--amber-light); color: var(--amber-dim); }
+.tag-history    { background: var(--green-light); color: var(--green); }

@@ -1,0 +1,68 @@
+.qcard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeIn .25s ease both;
+}
+
+.qcard__text {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.qcard__options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.qcard__opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color var(--transition), background var(--transition), transform var(--transition);
+  font-family: var(--font-body);
+}
+
+.qcard__opt:hover {
+  border-color: var(--ink-soft);
+  background: var(--canvas-2);
+}
+
+.qcard__opt--selected {
+  border-color: var(--ink);
+  background: var(--ink);
+}
+.qcard__opt--selected .qcard__opt-key,
+.qcard__opt--selected .qcard__opt-val {
+  color: var(--canvas);
+}
+
+.qcard__opt-key {
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  font-weight: 500;
+  color: var(--ink-faint);
+  line-height: 1.65;
+  min-width: 16px;
+  flex-shrink: 0;
+}
+
+.qcard__opt-val {
+  font-size: .95rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(8px); }
+  to   { opacity: 1; transform: translateX(0); }
+}

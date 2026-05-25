@@ -1,0 +1,124 @@
+.subject-select {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--canvas);
+}
+
+.ss-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ss-logo {
+  font-family: var(--font-mono);
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .15em;
+  color: var(--ink-faint);
+}
+
+.ss-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .85rem;
+}
+.ss-user__label { color: var(--ink-faint); }
+.ss-user__name  { font-weight: 600; }
+
+.ss-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  animation: fadeUp .4s ease both;
+}
+
+.ss-title {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ss-sub {
+  font-size: .9rem;
+  color: var(--ink-soft);
+  margin-bottom: 40px;
+  font-family: var(--font-mono);
+}
+
+.ss-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 700px) {
+  .ss-grid { grid-template-columns: 1fr; }
+}
+
+.ss-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 28px 24px;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.ss-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.ss-card--blue:hover  { border-color: var(--blue); }
+.ss-card--amber:hover { border-color: var(--amber); }
+.ss-card--green:hover { border-color: var(--green); }
+
+.ss-card__title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.ss-card__desc {
+  font-size: .85rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.ss-card__cta {
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.ss-leaderboard-btn {
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  letter-spacing: .02em;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
