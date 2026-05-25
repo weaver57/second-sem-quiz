@@ -1,5 +1,5 @@
-// Auto-generated from quiz_questions_all_subjects.xlsx
-// Sociology: 200 | Culturology: 287 | History: 155 | Total: 642
+// Auto-generated from quiz_questions_fixed.xlsx
+// Sociology: 199 | Culturology: 287 | History: 154 | Total: 640
 
 export const QUESTIONS = {
   "Sociology": [
@@ -25,7 +25,7 @@ export const QUESTIONS = {
         "B": "Humanities",
         "C": "Science of Nature",
         "D": "Science of existence",
-        "E": ""
+        "E": "Social Science"
       },
       "answer": "E"
     },
@@ -38,7 +38,7 @@ export const QUESTIONS = {
         "B": "Political relations",
         "C": "Social life",
         "D": "Cultural manifestations",
-        "E": ""
+        "E": "The structure of society and its key elements"
       },
       "answer": "E"
     },
@@ -51,7 +51,7 @@ export const QUESTIONS = {
         "B": "Role",
         "C": "Position",
         "D": "Level",
-        "E": ""
+        "E": "Situation"
       },
       "answer": "A"
     },
@@ -64,7 +64,7 @@ export const QUESTIONS = {
         "B": "Human",
         "C": "Society",
         "D": "Social institutions",
-        "E": ""
+        "E": "Political processes"
       },
       "answer": "C"
     },
@@ -77,7 +77,7 @@ export const QUESTIONS = {
         "B": "Power, income, education, influence",
         "C": "Education, culture, profession, prestige",
         "D": "Occupation, salary, diploma",
-        "E": ""
+        "E": "Car, vacation home and private jet"
       },
       "answer": "B"
     },
@@ -90,7 +90,7 @@ export const QUESTIONS = {
         "B": "E. Durkheim",
         "C": "P. Shozimov",
         "D": "E. Giddens",
-        "E": ""
+        "E": "Sh. Shoismatulloev"
       },
       "answer": "A"
     },
@@ -99,446 +99,433 @@ export const QUESTIONS = {
       "num": 8,
       "question": "What types of society are shown in the theory of evolutionary typology of society?",
       "options": {
-        "A": "Federal, Confederate and Unitary",
-        "B": "Capitalist, industrial and primitive society",
-        "C": "Socialist (communist), feudal (land tenure) and capitalist",
-        "D": "Agrarian, secular and unitary (singular)",
-        "E": ""
+        "A": "V. I. Lenin",
+        "B": "P. Shozimov",
+        "C": "E. Durkheim",
+        "D": "M. Weber",
+        "E": "M. Dinorshoev"
       },
       "answer": "E"
     },
     {
       "id": "SOC009",
       "num": 9,
-      "question": "Who is the author of \"Protestant Ethics and the Spirit of Capitalism\":",
-      "options": {
-        "A": "V. I. Lenin",
-        "B": "P. Shozimov",
-        "C": "E. Durkheim",
-        "D": "M. Weber",
-        "E": ""
-      },
-      "answer": "D"
-    },
-    {
-      "id": "SOC010",
-      "num": 10,
       "question": "Which of the following is an inherited status?",
       "options": {
         "A": "Family",
         "B": "Nation",
         "C": "Profession",
         "D": "Parents",
-        "E": ""
+        "E": "Skill"
       },
       "answer": "B"
     },
     {
-      "id": "SOC011",
-      "num": 11,
+      "id": "SOC010",
+      "num": 10,
       "question": "What was the period of the emergence of sociology as a science?",
       "options": {
         "A": "In the first half of the 19th century",
         "B": "In the era of antiquity",
         "C": "Second half of the 18th century",
         "D": "At the end of the twentieth century",
-        "E": ""
+        "E": "After the collapse of the USSR"
       },
       "answer": "A"
     },
     {
-      "id": "SOC012",
-      "num": 12,
+      "id": "SOC011",
+      "num": 11,
       "question": "Who introduced the concept of \"sociology\" into science?",
       "options": {
         "A": "M. Weber",
         "B": "K. Marx",
         "C": "O. Comte",
         "D": "V. I. Lenin",
-        "E": ""
+        "E": "M. Curie"
       },
       "answer": "C"
     },
     {
-      "id": "SOC013",
-      "num": 13,
+      "id": "SOC012",
+      "num": 12,
       "question": "Who is the founder of the theory of \"Organic Sociology\"?",
       "options": {
         "A": "T. Parsons",
         "B": "K. Marx",
         "C": "G. Spencer",
         "D": "E. Durkheim",
-        "E": ""
+        "E": "F. Engels"
       },
       "answer": "C"
     },
     {
-      "id": "SOC014",
-      "num": 14,
+      "id": "SOC013",
+      "num": 13,
       "question": "Which of these sociologists of the 19th century interpreted the development of society as a change in socio-economic formations?",
       "options": {
         "A": "M. Weber",
         "B": "K. Marx",
         "C": "E. Durkheim",
         "D": "A. Count",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "B"
     },
     {
-      "id": "SOC015",
-      "num": 15,
+      "id": "SOC014",
+      "num": 14,
       "question": "Which of these directions is society analyzed through observation, comparison, experiment, and historical methods?",
       "options": {
         "A": "Philosophy",
         "B": "Methodology",
         "C": "Phenomenology",
         "D": "Archeology",
-        "E": ""
+        "E": "Positivism"
       },
       "answer": "E"
     },
     {
-      "id": "SOC016",
-      "num": 16,
+      "id": "SOC015",
+      "num": 15,
       "question": "Depending on the number of family members and generations, what types of families exist?",
       "options": {
         "A": "Patriarchal and matriarchal",
         "B": "Small and large",
         "C": "Closed and open",
         "D": "Nuclear and traditional",
-        "E": ""
+        "E": "Rich and Poor"
       },
       "answer": "D"
     },
     {
-      "id": "SOC017",
-      "num": 17,
+      "id": "SOC016",
+      "num": 16,
       "question": "Which document reflects the results of the sociological research?",
       "options": {
         "A": "Report",
         "B": "Presentation",
         "C": "Monograph",
         "D": "Article",
-        "E": ""
+        "E": "News"
       },
       "answer": "A"
     },
     {
-      "id": "SOC018",
-      "num": 18,
+      "id": "SOC017",
+      "num": 17,
       "question": "The purpose of the sociological research:",
       "options": {
         "A": "Payment of funds",
         "B": "Communication with people",
         "C": "Youth employment",
         "D": "Writing a report",
-        "E": ""
+        "E": "Getting information"
       },
       "answer": "E"
     },
     {
-      "id": "SOC019",
-      "num": 19,
+      "id": "SOC018",
+      "num": 18,
       "question": "What functions does the institution of the family serve?",
       "options": {
         "A": "Education of the younger generation, satisfaction of biological and material needs, economic and political security",
         "B": "Socialization, adaptation, globalization and modernization",
         "C": "Generation continuation (reproductive), socialization, economic, cultural, spiritual",
         "D": "Caring for the older generation, self-education and professional self-determination",
-        "E": ""
+        "E": "Good neighborly relations, participation in social activities, social adaptation, political security, food security"
       },
       "answer": "C"
     },
     {
-      "id": "SOC020",
-      "num": 20,
+      "id": "SOC019",
+      "num": 19,
       "question": "Who is the founder of the theory of \"Anomy\" in sociology?",
       "options": {
         "A": "E. Durkheim",
         "B": "A. Count",
         "C": "Cicero",
         "D": "K. Marx",
-        "E": ""
+        "E": "P. Sorokin"
       },
       "answer": "A"
     },
     {
-      "id": "SOC021",
-      "num": 21,
+      "id": "SOC020",
+      "num": 20,
       "question": "Who is the author of Suicide?",
       "options": {
         "A": "G. Marquis",
         "B": "E. Durkheim",
         "C": "S. Huntington",
         "D": "H. Idiev",
-        "E": ""
+        "E": "F. Fukuyama"
       },
       "answer": "B"
     },
     {
-      "id": "SOC022",
-      "num": 22,
+      "id": "SOC021",
+      "num": 21,
       "question": "Who is the founder of the materialistic understanding of history?",
       "options": {
         "A": "Sh. Shoismatulloev",
         "B": "M. Weber",
         "C": "A. Count",
         "D": "F. Nietzsche",
-        "E": ""
+        "E": "K. Marx"
       },
       "answer": "E"
     },
     {
-      "id": "SOC023",
-      "num": 23,
+      "id": "SOC022",
+      "num": 22,
       "question": "What social problems did P. Sorokin contribute to in the study?",
       "options": {
         "A": "Theory of social anomie",
         "B": "Social theory - Darwinism and scientific communism",
         "C": "Theory of social stratification and social mobility",
         "D": "Theory of organic sociology and natural philosophy",
-        "E": ""
+        "E": "Theory of Structural Tension and Symbolic Interactionism"
       },
       "answer": "C"
     },
     {
-      "id": "SOC024",
-      "num": 24,
+      "id": "SOC023",
+      "num": 23,
       "question": "The reasons for the slow development of globalization during the twentieth century:",
       "options": {
         "A": "lack of a single global information network - the Internet",
         "B": "division of the world into two camps: socialist and capitalist",
         "C": "lack of mobile phones",
         "D": "high airfare",
-        "E": ""
+        "E": "formation of the European Union"
       },
       "answer": "B"
     },
     {
-      "id": "SOC025",
-      "num": 25,
+      "id": "SOC024",
+      "num": 24,
       "question": "When did sociology become institutionalized during Soviet times?",
       "options": {
         "A": "At the beginning of the 21st century",
         "B": "XX century",
         "C": "In the 1940s",
         "D": "Since the 60s of the XX century",
-        "E": ""
+        "E": "In the nineteenth century"
       },
       "answer": "D"
     },
     {
-      "id": "SOC026",
-      "num": 26,
+      "id": "SOC025",
+      "num": 25,
       "question": "What questions should not be asked of a respondent in a sociological survey?",
       "options": {
         "A": "Gender",
         "B": "Place of work",
         "C": "Marital status",
         "D": "Income",
-        "E": ""
+        "E": "All questions can be asked"
       },
       "answer": "A"
     },
     {
-      "id": "SOC027",
-      "num": 27,
+      "id": "SOC026",
+      "num": 26,
       "question": "What are the types of ideology?",
       "options": {
         "A": "Impeachment, revolution and evolution, modernization, globalization",
         "B": "Bureaucracy, autocracy, technocracy, theocracy and liberalism",
         "C": "Capitalism, democracy, tradition, self-awareness, national identity, etc.",
         "D": "Market economy, open door policy, modernization, globalization",
-        "E": ""
+        "E": "Conservatism (traditionalism), liberalism, nationalism, socialism, communism, etc."
       },
       "answer": "E"
     },
     {
-      "id": "SOC028",
-      "num": 28,
+      "id": "SOC027",
+      "num": 27,
       "question": "What types of public organizations are there?",
       "options": {
         "A": "top and bottom",
         "B": "low, medium and high level",
         "C": "primary and secondary",
         "D": "formal and informal",
-        "E": ""
+        "E": "religious and secular"
       },
       "answer": "D"
     },
     {
-      "id": "SOC029",
-      "num": 29,
+      "id": "SOC028",
+      "num": 28,
       "question": "The individual's study of the norms regulating society:",
       "options": {
         "A": "is called a deviation",
         "B": "is called adaptation",
         "C": "is called socialization",
         "D": "is called industrialization",
-        "E": ""
+        "E": "is called globalization"
       },
       "answer": "C"
     },
     {
-      "id": "SOC030",
-      "num": 30,
+      "id": "SOC029",
+      "num": 29,
       "question": "G. Spencer is the founder of:",
       "options": {
         "A": "anomie",
         "B": "organic theory",
         "C": "civil society",
         "D": "social choice",
-        "E": ""
+        "E": "statics and social dynamics"
       },
       "answer": "B"
     },
     {
-      "id": "SOC031",
-      "num": 31,
+      "id": "SOC030",
+      "num": 30,
       "question": "Who is the author of “The Course in Positivist Philosophy”?",
       "options": {
         "A": "O. Comte",
         "B": "B. Anderson",
         "C": "F. Engels",
         "D": "K. Marx",
-        "E": ""
+        "E": "M. Dinorshoev"
       },
       "answer": "A"
     },
     {
-      "id": "SOC032",
-      "num": 32,
+      "id": "SOC031",
+      "num": 31,
       "question": "Rightful consciousness refers to:",
       "options": {
         "A": "is an integral part of public consciousness and consists of a set of legal and political knowledge",
         "B": "represents a religious consciousness and consists of a set of philosophical knowledge",
         "C": "is an integral part of public consciousness and consists of a set of legal knowledge",
         "D": "is public consciousness and consists of a set of sociological knowledge",
-        "E": ""
+        "E": "public consciousness"
       },
       "answer": "C"
     },
     {
-      "id": "SOC033",
-      "num": 33,
+      "id": "SOC032",
+      "num": 32,
       "question": "On what basis did K. Marx categorize society into socio-economic formations?",
       "options": {
         "A": "Development of national identity",
         "B": "Level of technical and technological development",
         "C": "Development of culture and science",
         "D": "Development of a communication system",
-        "E": ""
+        "E": "Means of production"
       },
       "answer": "E"
     },
     {
-      "id": "SOC034",
-      "num": 34,
+      "id": "SOC033",
+      "num": 33,
       "question": "Society is a system:",
       "options": {
         "A": "natural",
         "B": "holistic and self-developing",
         "C": "is scientific and philosophical",
         "D": "political",
-        "E": ""
+        "E": "random"
       },
       "answer": "B"
     },
     {
-      "id": "SOC035",
-      "num": 35,
+      "id": "SOC034",
+      "num": 34,
       "question": "How many years did the USSR last?",
       "options": {
         "A": "There was no such state",
         "B": "100 years",
         "C": "Two centuries",
         "D": "50 years old",
-        "E": ""
+        "E": "70 years old"
       },
       "answer": "E"
     },
     {
-      "id": "SOC036",
-      "num": 36,
+      "id": "SOC035",
+      "num": 35,
       "question": "What social group does the family belong to?",
       "options": {
         "A": "Does not belong to any group",
         "B": "Secondary",
         "C": "Primary",
         "D": "To an internal group",
-        "E": ""
+        "E": "To an outside group"
       },
       "answer": "C"
     },
     {
-      "id": "SOC037",
-      "num": 37,
+      "id": "SOC036",
+      "num": 36,
       "question": "To which social institution does higher education belong?",
       "options": {
         "A": "Economic Institute",
         "B": "Institute of Education and Science",
         "C": "Institute of Religion",
         "D": "Political Institute",
-        "E": ""
+        "E": "Law Institute"
       },
       "answer": "B"
     },
     {
-      "id": "SOC038",
-      "num": 38,
+      "id": "SOC037",
+      "num": 37,
       "question": "What is social stratification?",
       "options": {
         "A": "Dividing people and social groups into strata",
         "B": "Distribution of people by territories",
         "C": "Differences between people",
         "D": "Inequality between institutions and community organizations",
-        "E": ""
+        "E": "Division of the population into rich and poor"
       },
       "answer": "A"
     },
     {
-      "id": "SOC039",
-      "num": 39,
+      "id": "SOC038",
+      "num": 38,
       "question": "What does \"stratification\" mean?",
       "options": {
         "A": "Race",
         "B": "Grouping",
         "C": "Form of government",
         "D": "Classification",
-        "E": ""
+        "E": "Feature"
       },
       "answer": "D"
     },
     {
-      "id": "SOC040",
-      "num": 40,
+      "id": "SOC039",
+      "num": 39,
       "question": "Ethnic basis of social inequality:",
       "options": {
         "A": "Capitalism",
         "B": "Marginalization",
         "C": "Industrialization",
         "D": "Globalization",
-        "E": ""
+        "E": "Nationalism"
       },
       "answer": "E"
     },
     {
-      "id": "SOC041",
-      "num": 41,
+      "id": "SOC040",
+      "num": 40,
       "question": "The concept of \"observation\" in sociology:",
       "options": {
         "A": "social action",
         "B": "direct event recording",
         "C": "direct communication",
         "D": "use of cell phones",
-        "E": ""
+        "E": "planned research"
       },
       "answer": "B"
     },
     {
-      "id": "SOC042",
-      "num": 42,
+      "id": "SOC041",
+      "num": 41,
       "question": "Which thinker was the first to coin the term \"welfare state\"?",
       "options": {
         "A": "Lawrence von Stein",
@@ -550,814 +537,814 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "SOC043",
-      "num": 43,
+      "id": "SOC042",
+      "num": 42,
       "question": "What is gender?",
       "options": {
         "A": "Biological characteristics of equality between men and women",
         "B": "Equality between men and women",
         "C": "A set of social characteristics of the behavior of men and women",
         "D": "Division of labor between men and women",
-        "E": ""
+        "E": "Cultural characteristics between men and women"
       },
       "answer": "C"
     },
     {
-      "id": "SOC044",
-      "num": 44,
+      "id": "SOC043",
+      "num": 43,
       "question": "What are the main functions of social institutions?",
       "options": {
         "A": "Satisfy social needs and ensure the sustainability of society",
         "B": "Meet spiritual needs and ensure the stability of religion",
         "C": "Address the physical needs of the family",
         "D": "Address political and social needs",
-        "E": ""
+        "E": "All answers are correct"
       },
       "answer": "A"
     },
     {
-      "id": "SOC045",
-      "num": 45,
+      "id": "SOC044",
+      "num": 44,
       "question": "What are the main signs of the emergence of classes, in the opinion of K. Marx?",
       "options": {
         "A": "Culture level",
         "B": "Material and spiritual wealth",
         "C": "Features of work",
         "D": "Attitude to the means of production",
-        "E": ""
+        "E": "Educational level"
       },
       "answer": "D"
     },
     {
-      "id": "SOC046",
-      "num": 46,
+      "id": "SOC045",
+      "num": 45,
       "question": "Who introduced the concept of \"ideology\" into science?",
       "options": {
         "A": "P. Sorokin",
         "B": "F. Tennis",
         "C": "D. Trace",
         "D": "D. Bell",
-        "E": ""
+        "E": "O. Spengler"
       },
       "answer": "C"
     },
     {
-      "id": "SOC047",
-      "num": 47,
+      "id": "SOC046",
+      "num": 46,
       "question": "The meaning of the term \"ethnos\":",
       "options": {
         "A": "group",
         "B": "family",
         "C": "tribe",
         "D": "people",
-        "E": ""
+        "E": "nation"
       },
       "answer": "D"
     },
     {
-      "id": "SOC048",
-      "num": 48,
+      "id": "SOC047",
+      "num": 47,
       "question": "The term \"urbanization\" means:",
       "options": {
         "A": "national minorities",
         "B": "relocation from urban to rural areas",
         "C": "movement of people across the territory",
         "D": "people living in the same city",
-        "E": ""
+        "E": "moving from rural to urban areas"
       },
       "answer": "E"
     },
     {
-      "id": "SOC049",
-      "num": 49,
+      "id": "SOC048",
+      "num": 48,
       "question": "What is \"personality\"?",
       "options": {
         "A": "great person",
         "B": "social qualities of a person",
         "C": "an individual",
         "D": "general biological property",
-        "E": ""
+        "E": "professional"
       },
       "answer": "B"
     },
     {
-      "id": "SOC050",
-      "num": 50,
+      "id": "SOC049",
+      "num": 49,
       "question": "What does the term \"individual\" mean?",
       "options": {
         "A": "Inventively person",
         "B": "A group of people",
         "C": "Human",
         "D": "Social qualities",
-        "E": ""
+        "E": "All answers are wrong"
       },
       "answer": "C"
     },
     {
-      "id": "SOC051",
-      "num": 51,
+      "id": "SOC050",
+      "num": 50,
       "question": "Basic methods for gathering sociological information:",
       "options": {
         "A": "Polls, analysis of documents, observations and experiments",
         "B": "interviews, comparisons, focus groups and quantitative analysis",
         "C": "deduction, induction, analysis, experimentation and synthesis",
         "D": "Comparative historical method, analytical and observant",
-        "E": ""
+        "E": "questionnaire, deduction, synthesis, focus group, etc."
       },
       "answer": "A"
     },
     {
-      "id": "SOC052",
-      "num": 52,
+      "id": "SOC051",
+      "num": 51,
       "question": "Methods of sociological research are divided into:",
       "options": {
         "A": "theoretical and practical",
         "B": "high-quality and numeric",
         "C": "substandard and quantitative",
         "D": "quantitative and quality",
-        "E": ""
+        "E": "multi-level and wholesale"
       },
       "answer": "D"
     },
     {
-      "id": "SOC053",
-      "num": 53,
+      "id": "SOC052",
+      "num": 52,
       "question": "What concept underlies the idea that self-knowledge forms the basis of personality?",
       "options": {
         "A": "concept of a mirror \"I\"",
         "B": "role-playing concept",
         "C": "post-industrial society",
         "D": "consumer society",
-        "E": ""
+        "E": "Social Darwinism"
       },
       "answer": "A"
     },
     {
-      "id": "SOC054",
-      "num": 54,
+      "id": "SOC053",
+      "num": 53,
       "question": "Man as a person:",
       "options": {
         "A": "is assigned",
         "B": "is born",
         "C": "is rewarded",
         "D": "is formed",
-        "E": ""
+        "E": "selected"
       },
       "answer": "D"
     },
     {
-      "id": "SOC055",
-      "num": 55,
+      "id": "SOC054",
+      "num": 54,
       "question": "What is social deviation?",
       "options": {
         "A": "criminal behavior",
         "B": "violating expected rules and norms",
         "C": "submission to the generally accepted rules",
         "D": "conformist behavior",
-        "E": ""
+        "E": "the perfect behavior and compliance with the generally accepted rules"
       },
       "answer": "B"
     },
     {
-      "id": "SOC056",
-      "num": 56,
+      "id": "SOC055",
+      "num": 55,
       "question": "Social control is:",
       "options": {
         "A": "educational work with students",
         "B": "the efforts of community members to achieve personal goals",
         "C": "law enforcement activities",
         "D": "controlling the activities of the chairmen of the Mahalla",
-        "E": ""
+        "E": "regulating the behavior of the community members"
       },
       "answer": "E"
     },
     {
-      "id": "SOC057",
-      "num": 57,
+      "id": "SOC056",
+      "num": 56,
       "question": "Sociological research is:",
       "options": {
         "A": "Studying and devising solutions for emerging social problems using specific sociological methods",
         "B": "to obtain information on the devaluation of the currency with the help of specific sociological methods",
         "C": "obtaining information about the physical face",
         "D": "make a questionnaire for research",
-        "E": ""
+        "E": "population surveys using specific sociological methods"
       },
       "answer": "A"
     },
     {
-      "id": "SOC058",
-      "num": 58,
+      "id": "SOC057",
+      "num": 57,
       "question": "What do you call a person who participates in a sociological study and serves as a source of information?",
       "options": {
         "A": "sociologist",
         "B": "interviewer",
         "C": "respondent",
         "D": "marketer",
-        "E": ""
+        "E": "analyst"
       },
       "answer": "C"
     },
     {
-      "id": "SOC059",
-      "num": 59,
+      "id": "SOC058",
+      "num": 58,
       "question": "The most common method of collecting sociological data is:",
       "options": {
         "A": "Sociometrists",
         "B": "experiment",
         "C": "observation",
         "D": "interview",
-        "E": ""
+        "E": "questionnaire"
       },
       "answer": "E"
     },
     {
-      "id": "SOC060",
-      "num": 60,
+      "id": "SOC059",
+      "num": 59,
       "question": "Cases of using a sociological questionnaire:",
       "options": {
         "A": "at the time of writing a report",
         "B": "a large amount of information and lack of financing",
         "C": "after a sociological interview",
         "D": "lack of sufficient information about the object",
-        "E": ""
+        "E": "after a sociological survey"
       },
       "answer": "D"
     },
     {
-      "id": "SOC061",
-      "num": 61,
+      "id": "SOC060",
+      "num": 60,
       "question": "A person who participates in sociological research and collects information:",
       "options": {
         "A": "sociologist",
         "B": "interviewer",
         "C": "analyst",
         "D": "marketer",
-        "E": ""
+        "E": "respondent"
       },
       "answer": "B"
     },
     {
-      "id": "SOC062",
-      "num": 62,
+      "id": "SOC061",
+      "num": 61,
       "question": "What are the main institutions of society?",
       "options": {
         "A": "trade unions, army, health care, education and art",
         "B": "Institute of Religion, Media, Economics, Finance and Credit",
         "C": "ethics, sports, health, education, science and media",
         "D": "service, ethics, media, law, politics, university and religion",
-        "E": ""
+        "E": "family, education, politics, law, economy and religion"
       },
       "answer": "E"
     },
     {
-      "id": "SOC063",
-      "num": 63,
+      "id": "SOC062",
+      "num": 62,
       "question": "K. Marx on which socio-economic formations divide society?",
       "options": {
         "A": "primitive, slave-owned, feudal, capitalist and socialist society",
         "B": "primary, advanced, modern, industrial and post-industrial",
         "C": "consumer, global and civil",
         "D": "traditional, modern, totalitarian, theocratic and authoritarian",
-        "E": ""
+        "E": "primary, slave, capitalist, industrial and post-industrial"
       },
       "answer": "A"
     },
     {
-      "id": "SOC064",
-      "num": 64,
+      "id": "SOC063",
+      "num": 63,
       "question": "What are the main functions of sociology as a science?",
       "options": {
         "A": "conducting a sociological study",
         "B": "regulation, control, integration, humanism, education, etc.",
         "C": "providing public security",
         "D": "educational, methodological, prediction, ideological, humanistic, managerial, etc.",
-        "E": ""
+        "E": "Cognitive, research, analytical, humanistic, futurological, technological, etc."
       },
       "answer": "D"
     },
     {
-      "id": "SOC065",
-      "num": 65,
+      "id": "SOC064",
+      "num": 64,
       "question": "The methods of resolving social conflict:",
       "options": {
         "A": "conflict care, mediation, negotiation and friendship",
         "B": "compromise, the use of mediation, avoiding conflict, through court and negotiations",
         "C": "conformism, coercion, compromise, negotiations and friendship",
         "D": "through war, confrontation, strength, usurpation, etc.",
-        "E": ""
+        "E": "reception officials, escape from conflict and relocation"
       },
       "answer": "A"
     },
     {
-      "id": "SOC066",
-      "num": 66,
+      "id": "SOC065",
+      "num": 65,
       "question": "Representative of the theory of social conflict:",
       "options": {
         "A": "M. Weber",
         "B": "P. Sorokin",
         "C": "T. Parson",
         "D": "E. Durkheim",
-        "E": ""
+        "E": "R. Dawarendorf"
       },
       "answer": "B"
     },
     {
-      "id": "SOC067",
-      "num": 67,
+      "id": "SOC066",
+      "num": 66,
       "question": "In which society are the most common scientific and technical discoveries and inventions made?",
       "options": {
         "A": "in industrial society",
         "B": "in feudal society",
         "C": "in agrarian society",
         "D": "in traditional society",
-        "E": ""
+        "E": "in slavery society"
       },
       "answer": "E"
     },
     {
-      "id": "SOC068",
-      "num": 68,
+      "id": "SOC067",
+      "num": 67,
       "question": "The founder of the biological theory \"Social Deviation\":",
       "options": {
         "A": "C. Lombroso",
         "B": "E. Durkheim",
         "C": "R. Dawarendorf",
         "D": "z. Freud",
-        "E": ""
+        "E": "B. Miller"
       },
       "answer": "A"
     },
     {
-      "id": "SOC069",
-      "num": 69,
+      "id": "SOC068",
+      "num": 68,
       "question": "Thinker who described \"Criminal person\" in the XIX century:",
       "options": {
         "A": "Z. Freud",
         "B": "Tard",
         "C": "C. Lombroso",
         "D": "K. Marx",
-        "E": ""
+        "E": "E. Durkheim"
       },
       "answer": "C"
     },
     {
-      "id": "SOC070",
-      "num": 70,
+      "id": "SOC069",
+      "num": 69,
       "question": "What are the types of social mobility?",
       "options": {
         "A": "local and global",
         "B": "horizontal group",
         "C": "internal and external",
         "D": "Horizontal and vertically",
-        "E": ""
+        "E": "international and internal"
       },
       "answer": "D"
     },
     {
-      "id": "SOC071",
-      "num": 71,
+      "id": "SOC070",
+      "num": 70,
       "question": "Which of them can we include in the institutions of socialization?",
       "options": {
         "A": "classmates and peers",
         "B": "social institutions, society, social relations, social groups, sociological research, social movement",
         "C": "Institutes of Science, Economics, Service, Nature, Society, Philosophy",
         "D": "friends and jury members",
-        "E": ""
+        "E": "family, education, religion, media, etc."
       },
       "answer": "E"
     },
     {
-      "id": "SOC072",
-      "num": 72,
+      "id": "SOC071",
+      "num": 71,
       "question": "What are the main moral ideas in Zoroastrianism?",
       "options": {
         "A": "Good thoughts, good words, good behavior",
         "B": "Excessive labor and inventions",
         "C": "Human morality and eloquence",
         "D": "Poverty and isolation",
-        "E": ""
+        "E": "Good deeds, good religion and good deeds"
       },
       "answer": "A"
     },
     {
-      "id": "SOC073",
-      "num": 73,
+      "id": "SOC072",
+      "num": 72,
       "question": "Types of social conflicts:",
       "options": {
         "A": "interpersonal, intrapersonal, intragroup, intergroup, interstate",
         "B": "Labor conflicts between classes, friends and family",
         "C": "collective, labor, family, interpersonal and communal",
         "D": "interpersonal, business, intersocial, international, interructal conflict",
-        "E": ""
+        "E": "between groups between clans and races"
       },
       "answer": "A"
     },
     {
-      "id": "SOC074",
-      "num": 74,
+      "id": "SOC073",
+      "num": 73,
       "question": "What is the role of the Institute for Education and Science in society?",
       "options": {
         "A": "study, emotional, control",
         "B": "transmission of tradition, study of mental abilities",
         "C": "Transfer of knowledge and socialization of the younger generation",
         "D": "adolescent, reproductive and economic education",
-        "E": ""
+        "E": "unifying, promising and theoretical"
       },
       "answer": "C"
     },
     {
-      "id": "SOC075",
-      "num": 75,
+      "id": "SOC074",
+      "num": 74,
       "question": "Select a theory related to the sociology of deviant behavior.",
       "options": {
         "A": "only social theory",
         "B": "Social theory of the highest \"I\", a mirror \"I\", anomy, cultural transition and conflict",
         "C": "middle-class, lower-class theory, anomies, cultural transition and conflict",
         "D": "biological and psychological theory",
-        "E": ""
+        "E": "the theory of biology, psychology, stigmatization, anomy, etc."
       },
       "answer": "E"
     },
     {
-      "id": "SOC076",
-      "num": 76,
+      "id": "SOC075",
+      "num": 75,
       "question": "In which year and where was the Department of Sociology organized in Tajikistan?",
       "options": {
         "A": "in 2000 in the Khorog University",
         "B": "1999 in KSU",
         "C": "in 1948 at TNU named after V. I. Lenin",
         "D": "2005 at the TNU",
-        "E": ""
+        "E": "2006 in Dangarin University"
       },
       "answer": "D"
     },
     {
-      "id": "SOC077",
-      "num": 77,
+      "id": "SOC076",
+      "num": 76,
       "question": "Which Tajik scientist authored the book \"Tajikistan in the Mirror of Continuity and Change of Generations\"?",
       "options": {
         "A": "S. Shoismatulloev",
         "B": "R. Dinorschoev",
         "C": "H. Idiyev",
         "D": "B. Gafurov",
-        "E": ""
+        "E": "S. Ayney"
       },
       "answer": "A"
     },
     {
-      "id": "SOC078",
-      "num": 78,
+      "id": "SOC077",
+      "num": 77,
       "question": "Modernization is:",
       "options": {
         "A": "restriction of social relations",
         "B": "the process of transition from industrial society to traditional",
         "C": "process of transition from traditional society to industrial",
         "D": "collapse of the Soviet Union",
-        "E": ""
+        "E": "the appearance of the World Wide Web (Internet)"
       },
       "answer": "C"
     },
     {
-      "id": "SOC079",
-      "num": 79,
+      "id": "SOC078",
+      "num": 78,
       "question": "If there are no answers in the questionnaire, then what question is this?",
       "options": {
         "A": "incorrect",
         "B": "open",
         "C": "closed",
         "D": "semi-closed",
-        "E": ""
+        "E": "structural"
       },
       "answer": "B"
     },
     {
-      "id": "SOC080",
-      "num": 80,
+      "id": "SOC079",
+      "num": 79,
       "question": "Choose the types of marriages",
       "options": {
         "A": "monogamy, polygamy and group marriage",
         "B": "patriarchal, endogamic marriages and mutually beneficial marriages",
         "C": "matriarchal, patriarchal and non-egalitarian",
         "D": "wide, nuclear, polyandria, group and patrilineal marriage",
-        "E": ""
+        "E": "modern, egalitarian and childocentric"
       },
       "answer": "A"
     },
     {
-      "id": "SOC081",
-      "num": 81,
+      "id": "SOC080",
+      "num": 80,
       "question": "What is the question in sociology that offers options for answers?",
       "options": {
         "A": "complex",
         "B": "open",
         "C": "simple",
         "D": "closed",
-        "E": ""
+        "E": "semi-open"
       },
       "answer": "D"
     },
     {
-      "id": "SOC082",
-      "num": 82,
+      "id": "SOC081",
+      "num": 81,
       "question": "Which thinker developed a paradigm of socio-historical determinism?",
       "options": {
         "A": "O. Cont",
         "B": "R. Dawarendorf",
         "C": "L. Kozern",
         "D": "Spencer",
-        "E": ""
+        "E": "K. Marx"
       },
       "answer": "E"
     },
     {
-      "id": "SOC083",
-      "num": 83,
+      "id": "SOC082",
+      "num": 82,
       "question": "Who are the most famous representatives of the structural and functional analysis theory?",
       "options": {
         "A": "R. Domarendorf and C. Lobrozo",
         "B": "T. Parsons and R. Merton",
         "C": "B. Miller and R. Merton",
         "D": "E. Durkheim and B. Miller",
-        "E": ""
+        "E": "Z. Freud and E. Durkheim"
       },
       "answer": "B"
     },
     {
-      "id": "SOC084",
-      "num": 84,
+      "id": "SOC083",
+      "num": 83,
       "question": "Whom does a paradigm of social behaviorism belong to?",
       "options": {
         "A": "B. Skinner",
         "B": "E. Durkheim",
         "C": "K. Marx",
         "D": "T. Parsons",
-        "E": ""
+        "E": "Ch. Lobrozo"
       },
       "answer": "A"
     },
     {
-      "id": "SOC085",
-      "num": 85,
+      "id": "SOC084",
+      "num": 84,
       "question": "O. Kont combined all sciences in the form of a pyramid. Which science did he place on the top of this pyramid?",
       "options": {
         "A": "arithmetic",
         "B": "sociology",
         "C": "astronomy",
         "D": "physics",
-        "E": ""
+        "E": "biology"
       },
       "answer": "B"
     },
     {
-      "id": "SOC086",
-      "num": 86,
+      "id": "SOC085",
+      "num": 85,
       "question": "What is the subject of the sociology study from E. Durkheim's perspective?",
       "options": {
         "A": "collective consciousness",
         "B": "social communities",
         "C": "society",
         "D": "social facts",
-        "E": ""
+        "E": "social institutions"
       },
       "answer": "D"
     },
     {
-      "id": "SOC087",
-      "num": 87,
+      "id": "SOC086",
+      "num": 86,
       "question": "According to E. Durkheim, how many stages does society go through in its development?",
       "options": {
         "A": "mechanical solidarity and organic solidarity",
         "B": "industrial and post-industrial",
         "C": "agriculture and industry",
         "D": "slavery and feudalism",
-        "E": ""
+        "E": "Agrarian and civilized"
       },
       "answer": "A"
     },
     {
-      "id": "SOC088",
-      "num": 88,
+      "id": "SOC087",
+      "num": 87,
       "question": "Which thinker introduced the concepts of \"social stratification\" and \"social mobility\" into science?",
       "options": {
         "A": "M. Weber",
         "B": "E. Durkheim",
         "C": "P. Sorokin",
         "D": "K. Marx",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "C"
     },
     {
-      "id": "SOC089",
-      "num": 89,
+      "id": "SOC088",
+      "num": 88,
       "question": "Which of these famous sociologists employed the \"sociology of action\" theory?",
       "options": {
         "A": "E. Durkheim",
         "B": "T. Parsons",
         "C": "P. Sorokin",
         "D": "M. Weber",
-        "E": ""
+        "E": "S. Shoismatulloev"
       },
       "answer": "D"
     },
     {
-      "id": "SOC090",
-      "num": 90,
+      "id": "SOC089",
+      "num": 89,
       "question": "Popper K. On which types did society divide?",
       "options": {
         "A": "barbarism and civilization",
         "B": "closed and simple",
         "C": "agrarian and industrial",
         "D": "simple and complex",
-        "E": ""
+        "E": "closed and open"
       },
       "answer": "E"
     },
     {
-      "id": "SOC091",
-      "num": 91,
+      "id": "SOC090",
+      "num": 90,
       "question": "Which thinker introduced the term \"social relations\" into sociological theory?",
       "options": {
         "A": "Ch. Lobrozo",
         "B": "E. Durkheim",
         "C": "B. Miller",
         "D": "R. Dawarendorf",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "B"
     },
     {
-      "id": "SOC092",
-      "num": 92,
+      "id": "SOC091",
+      "num": 91,
       "question": "The norms are divided into the following forms:",
       "options": {
         "A": "traditions, customs, ethics, rights norms, etc.",
-        "B": "",
+        "B": "Family norms, institutionalization of religious centers, cultural institutions; marriage norms",
         "C": "traditions, customs, religions and global policies",
         "D": "institutions and public organizations, laws of Majlisi Oli",
-        "E": ""
+        "E": "orders, decrees, orders, decisions and religious laws"
       },
       "answer": "A"
     },
     {
-      "id": "SOC093",
-      "num": 93,
+      "id": "SOC092",
+      "num": 92,
       "question": "According to R. Dawarendorf, what are the main factors causing social conflicts?",
       "options": {
         "A": "economic factors",
         "B": "cultural factors",
         "C": "religious factors",
         "D": "political factors",
-        "E": ""
+        "E": "ethnic factors"
       },
       "answer": "D"
     },
     {
-      "id": "SOC094",
-      "num": 94,
+      "id": "SOC093",
+      "num": 93,
       "question": "What is a social group?",
       "options": {
         "A": "social classes",
         "B": "a set of social relations established over a long historical period",
         "C": "group of people united by common goals, interests and interactions",
         "D": "a group of people who do not have common goals and interests and which spontaneously unite",
-        "E": ""
+        "E": "a group of people united by a common cause"
       },
       "answer": "C"
     },
     {
-      "id": "SOC095",
-      "num": 95,
+      "id": "SOC094",
+      "num": 94,
       "question": "Which groups can be included in major social groups?",
       "options": {
         "A": "classes, organizations, ethnic groups, professional groups, etc.",
         "B": "a circle of friends, classmates, colleagues, etc.",
         "C": "family, team, sports team, etc.",
         "D": "buyers, passers-by, teacher, etc.",
-        "E": ""
+        "E": "peers, interests, social institutions, etc."
       },
       "answer": "A"
     },
     {
-      "id": "SOC096",
-      "num": 96,
+      "id": "SOC095",
+      "num": 95,
       "question": "The behavior a person exhibits, depending on their position in society, is called?",
       "options": {
         "A": "Role",
         "B": "Status",
         "C": "Profession",
         "D": "Position",
-        "E": ""
+        "E": "Title"
       },
       "answer": "B"
     },
     {
-      "id": "SOC097",
-      "num": 97,
+      "id": "SOC096",
+      "num": 96,
       "question": "Which groups can be attributed to small social groups?",
       "options": {
         "A": "comrades, employees of a commercial company, participants in criminal gangs",
         "B": "classes, organizations, ethnic groups, professional groups, etc.",
         "C": "buyers, passers-by, buyers and others",
         "D": "children, students, conference participants and others",
-        "E": ""
+        "E": "family, friends, sports teams, small team’s colleagues and others"
       },
       "answer": "E"
     },
     {
-      "id": "SOC098",
-      "num": 98,
+      "id": "SOC097",
+      "num": 97,
       "question": "Who introduced the term \"primary group\" into sociology?",
       "options": {
         "A": "C. Kuli",
         "B": "K. Marx",
         "C": "M. Weber",
         "D": "F. Nietzsche",
-        "E": ""
+        "E": "P. Sorokin"
       },
       "answer": "A"
     },
     {
-      "id": "SOC099",
-      "num": 99,
+      "id": "SOC098",
+      "num": 98,
       "question": "What is a social institution?",
       "options": {
         "A": "a set of symbols, beliefs, values, norms, positions, and roles that are sustainable and unify the management of all areas of social life",
         "B": "a set of social organizations regulating specialized public sectors",
         "C": "Higher educational institutions provide students with various skills",
         "D": "Institute of Family, Education, Religion, Politics, etc.",
-        "E": ""
+        "E": "a set of law enforcement agencies that regulate all spheres of public life"
       },
       "answer": "A"
     },
     {
-      "id": "SOC100",
-      "num": 100,
+      "id": "SOC099",
+      "num": 99,
       "question": "Which social institution is responsible for the reproduction of life?",
       "options": {
         "A": "right and politics",
         "B": "Institute of Family and Marriage",
         "C": "health",
         "D": "science and art",
-        "E": ""
+        "E": "education and religion"
       },
       "answer": "B"
     },
     {
-      "id": "SOC101",
-      "num": 101,
+      "id": "SOC100",
+      "num": 100,
       "question": "Which social institution satisfies the material needs of citizens?",
       "options": {
         "A": "services",
         "B": "education and religion",
         "C": "right and politics",
         "D": "economy and production",
-        "E": ""
+        "E": "family and marriage institute"
       },
       "answer": "D"
     },
     {
-      "id": "SOC102",
-      "num": 102,
+      "id": "SOC101",
+      "num": 101,
       "question": "Which of these scientists is the most interested in the \"Social Institute\" concept?",
       "options": {
         "A": "L. Lokke",
         "B": "K. Marx",
         "C": "T. Weblin",
         "D": "R. Merton",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "C"
     },
     {
-      "id": "SOC103",
-      "num": 103,
+      "id": "SOC102",
+      "num": 102,
       "question": "What is the literal meaning of globalization?",
       "options": {
         "A": "Adaptability, and coordination",
         "B": "Process from the transition from a traditional society to a post-industrial one",
         "C": "Individualism, loneliness and crowds",
         "D": "Global, worldwide",
-        "E": ""
+        "E": "Industrialization, Collectivization and Integration"
       },
       "answer": "D"
     },
     {
-      "id": "SOC104",
-      "num": 104,
+      "id": "SOC103",
+      "num": 103,
       "question": "What are the three stages of historical development designated by O. Kont?",
       "options": {
         "A": "theological, metaphysical, positivist",
         "B": "globalization, modernization, industrialization",
         "C": "socialization, adaptation and resocialization",
         "D": "Reformation, revolution and postmodernism",
-        "E": ""
+        "E": "great revival, revival and new era"
       },
       "answer": "A"
     },
     {
-      "id": "SOC105",
-      "num": 105,
+      "id": "SOC104",
+      "num": 104,
       "question": "Which questions should not be asked of the interviewer?",
       "options": {
         "A": "marital status",
@@ -1369,125 +1356,125 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "SOC106",
-      "num": 106,
+      "id": "SOC105",
+      "num": 105,
       "question": "Explain the concept of \"conformism\"",
       "options": {
         "A": "adaptation and passive acceptance of social order and leadership",
         "B": "compromise social injustice",
         "C": "reconciliation and tolerance in the system of social relations",
         "D": "demonstrate opposition to various social groups",
-        "E": ""
+        "E": "Competition and struggle for survival"
       },
       "answer": "A"
     },
     {
-      "id": "SOC107",
-      "num": 107,
+      "id": "SOC106",
+      "num": 106,
       "question": "What does a social community mean?",
       "options": {
         "A": "social subcultures and different local cultures",
         "B": "a group of professional and civilized people who differ like life, activity and methods of thinking",
         "C": "a set of state-owned enterprises and institutions that work under certain social norms",
         "D": "representatives of various world religions and denominations, different social subcultures and different local cultures that disagree with each other",
-        "E": ""
+        "E": "is a collection of diverse social affiliations that share similar characteristics in terms of life, activity, and thought"
       },
       "answer": "E"
     },
     {
-      "id": "SOC108",
-      "num": 108,
+      "id": "SOC107",
+      "num": 107,
       "question": "Which of the following thinkers introduced the concept of \"post-industrial society\" to science?",
       "options": {
         "A": "T. Parsons in 1999",
         "B": "D. Bell 1962",
         "C": "E. Durkheim in 2000",
         "D": "R. Dawarendorf in 1981",
-        "E": ""
+        "E": "Ch. Lobrozo in 1969"
       },
       "answer": "B"
     },
     {
-      "id": "SOC109",
-      "num": 109,
+      "id": "SOC108",
+      "num": 108,
       "question": "Subculture is:",
       "options": {
         "A": "values, norms, goals and objectives of the ruling culture of society",
         "B": "a system of values, norms, objectives, and behaviors of certain social groups that, while related to the culture of the ruling society, differ from it",
         "C": "a system in which certain social groups operate and closely related",
         "D": "the system of goals and objectives, behavior and lifestyle of the masses, which is associated with the dominant culture of society and regulates the behavior of people",
-        "E": ""
+        "E": "goals and objectives of social groups that satisfy the material and spiritual needs of the community and do not differ from the goals of the ruling culture"
       },
       "answer": "B"
     },
     {
-      "id": "SOC110",
-      "num": 110,
+      "id": "SOC109",
+      "num": 109,
       "question": "What type of society is considered traditional?",
       "options": {
         "A": "post-industrial society in which agriculture is not dominant and is largely governed by current laws",
         "B": "upgraded society that relies on industrial production and is regulated by formal legislation",
         "C": "a primitive society in which members live equally and guided by customs and traditions",
         "D": "A society in which agriculture prevails and is largely regulated by customs and traditions",
-        "E": ""
+        "E": "Capitalist society in which agriculture prevails and is largely managed by religion"
       },
       "answer": "D"
     },
     {
-      "id": "SOC111",
-      "num": 111,
+      "id": "SOC110",
+      "num": 110,
       "question": "Modern society is:",
       "options": {
         "A": "a post-industrial society in which agriculture is not dominant and is largely governed by current laws",
         "B": "an industrial society in which agriculture prevails and is largely regulated by customs and traditions",
         "C": "Modernize society based on industrial production and regulated by formal legislation",
         "D": "capitalist society in which agriculture prevails and mainly religious",
-        "E": ""
+        "E": "a primitive society in which members live equally and guided by customs and traditions"
       },
       "answer": "C"
     },
     {
-      "id": "SOC112",
-      "num": 112,
+      "id": "SOC111",
+      "num": 111,
       "question": "What is the social elite?",
       "options": {
         "A": "The highest class of a hierarchical social system dominates other social groups and significantly impacts society.",
         "B": "affiliation to the middle class, dominance over other social groups and destructive impact on society",
         "C": "this is the poorest segment of society, has no social status and does not have a significant impact on society",
         "D": "the so-called social class, which belongs to the social group and does not have a significant impact on society",
-        "E": ""
+        "E": "a large social group consisting of marginalized people"
       },
       "answer": "A"
     },
     {
-      "id": "SOC113",
-      "num": 113,
+      "id": "SOC112",
+      "num": 112,
       "question": "What is ethnocentrism?",
       "options": {
         "A": "the point of view of a certain group, which considers its culture of worst and promotes the culture of other social groups",
         "B": "ignore the culture of other social groups",
         "C": "the point of view of a particular group, which regards its culture as superior while disregarding the cultures of other social groups",
         "D": "promotes group culture",
-        "E": ""
+        "E": "comes against other cultures"
       },
       "answer": "C"
     },
     {
-      "id": "SOC114",
-      "num": 114,
+      "id": "SOC113",
+      "num": 113,
       "question": "What does the term \"crowd\" mean?",
       "options": {
         "A": "any group of people who are collected together temporarily and for a short period of time to meet a certain need",
         "B": "a group of people who are regularly found to meet certain interests",
         "C": "the form of combining people who are collected together temporarily and for a long period to meet certain interests",
         "D": "any form of satisfying the special interests of people",
-        "E": ""
+        "E": "satisfying the specific interests of people"
       },
       "answer": "A"
     },
     {
-      "id": "SOC115",
-      "num": 115,
+      "id": "SOC114",
+      "num": 114,
       "question": "In what period is the population census conducted?",
       "options": {
         "A": "monthly",
@@ -1499,21 +1486,21 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "SOC116",
-      "num": 116,
+      "id": "SOC115",
+      "num": 115,
       "question": "Forms of culture?",
       "options": {
         "A": "Luxury, popular and unpopular culture",
         "B": "Higher, national and tropping culture",
         "C": "Homemade, local and social culture",
         "D": "Middle class, state and mass culture",
-        "E": ""
+        "E": "Culture, subculture and counterculture"
       },
       "answer": "E"
     },
     {
-      "id": "SOC117",
-      "num": 117,
+      "id": "SOC116",
+      "num": 116,
       "question": "What is the name of a study that systematically and objectively identifies, collects, analyzes, and disseminates information on marketing issues and opportunities?",
       "options": {
         "A": "pilot studies",
@@ -1525,437 +1512,437 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "SOC118",
-      "num": 118,
+      "id": "SOC117",
+      "num": 117,
       "question": "What are the elements of spiritual culture?",
       "options": {
         "A": "art, literature, science, education, religion, ideology, etc.",
         "B": "technical and technological means, publications, vehicles, etc.",
         "C": "sociology, psychology, political science, religion and economics",
         "D": "residential buildings, air transport, underground transitions, paintings",
-        "E": ""
+        "E": "technical and technological means, communications, traditions and mobile phones"
       },
       "answer": "A"
     },
     {
-      "id": "SOC119",
-      "num": 119,
+      "id": "SOC118",
+      "num": 118,
       "question": "Who believed that each culture lives for 1000 years?",
       "options": {
         "A": "R. Dawarendorf",
         "B": "D. Bell",
         "C": "Ch. Lobrozo",
         "D": "O. Spengler",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "D"
     },
     {
-      "id": "SOC120",
-      "num": 120,
+      "id": "SOC119",
+      "num": 119,
       "question": "What are the reasons for labor migration among citizens of Tajikistan?",
       "options": {
         "A": "Social policy of the state",
         "B": "Low living standards, unemployment, etc",
         "C": "Nature change and natural disasters",
         "D": "Assistance to countries in need of labor",
-        "E": ""
+        "E": "Leisure and tourism"
       },
       "answer": "B"
     },
     {
-      "id": "SOC121",
-      "num": 121,
+      "id": "SOC120",
+      "num": 120,
       "question": "What is resocialization?",
       "options": {
         "A": "Rehabilitation and reintegration",
         "B": "Rehabilitation of personality and social misconduct",
         "C": "Disappearance or alienation of man",
         "D": "Preparing a person to return to culture, former habitat and restoration of social relations",
-        "E": ""
+        "E": "Preparation of a person to return to religion and restoration of social relations"
       },
       "answer": "D"
     },
     {
-      "id": "SOC122",
-      "num": 122,
+      "id": "SOC121",
+      "num": 121,
       "question": "Which Greek philosopher said: \"All cities, no matter how big or small they are, are divided into two parts: for the rich and poor\"?",
       "options": {
         "A": "Cicero",
         "B": "Pifagor",
         "C": "Plato",
         "D": "A. Blue",
-        "E": ""
+        "E": "A. Fordi"
       },
       "answer": "C"
     },
     {
-      "id": "SOC123",
-      "num": 123,
+      "id": "SOC122",
+      "num": 122,
       "question": "What is the famous work of I. Haldun that analyzes the phenomena of public life?",
       "options": {
         "A": "Mukadima",
         "B": "Avesto",
         "C": "healing",
         "D": "utopia",
-        "E": ""
+        "E": "shoham"
       },
       "answer": "A"
     },
     {
-      "id": "SOC124",
-      "num": 124,
+      "id": "SOC123",
+      "num": 123,
       "question": "Which of these scientists demands that the idea \"oligarchy arises from the fundamental flaws of bureaucracy\"?",
       "options": {
         "A": "V. I. Lenin",
         "B": "M. Weber",
         "C": "E. Durkheim",
         "D": "M. Dinorschoev",
-        "E": ""
+        "E": "P. Shozimamov"
       },
       "answer": "B"
     },
     {
-      "id": "SOC125",
-      "num": 125,
+      "id": "SOC124",
+      "num": 124,
       "question": "Who do you mean by \"organizers\" in social conflict?",
       "options": {
         "A": "Warring parties",
         "B": "Migrants and passers-by from rural to urban areas",
         "C": "People living in the same area or area",
         "D": "People who are friends and allies",
-        "E": ""
+        "E": "Individuals who create social conflict with specific goals"
       },
       "answer": "E"
     },
     {
-      "id": "SOC126",
-      "num": 126,
+      "id": "SOC125",
+      "num": 125,
       "question": "What causes family conflicts?",
       "options": {
         "A": "for family roles, family property and marital infidelity",
         "B": "have children and family property",
         "C": "for property, power and wealth",
         "D": "for personal gain",
-        "E": ""
+        "E": "for family roles and power"
       },
       "answer": "A"
     },
     {
-      "id": "SOC127",
-      "num": 127,
+      "id": "SOC126",
+      "num": 126,
       "question": "\"Family is a small social cell, members of which support each other in a social, economic, and psychological plan\" - who pronate these words?",
       "options": {
         "A": "M. Weber",
         "B": "O. Spengler",
         "C": "A. Giddens",
         "D": "E. Durkheim",
-        "E": ""
+        "E": "V. I. Lenin"
       },
       "answer": "C"
     },
     {
-      "id": "SOC128",
-      "num": 128,
+      "id": "SOC127",
+      "num": 127,
       "question": "What is an interview?",
       "options": {
         "A": "development of a Sociological Research Program and Writing Research Report",
         "B": "respondent's survey",
         "C": "talk on television according to a predetermined schedule",
         "D": "survey of the respondent based on preliminary observations",
-        "E": ""
+        "E": "direct conversation with the respondent on a predetermined plan"
       },
       "answer": "E"
     },
     {
-      "id": "SOC129",
-      "num": 129,
+      "id": "SOC128",
+      "num": 128,
       "question": "Identify the stages of social conflict.",
       "options": {
         "A": "conflict escalation, conflict resolution and return to the conflict",
         "B": "before, during and after conflict",
         "C": "conflicts, contradictions and the beginning of the war",
         "D": "conflict resolution and the beginning of new conflicts",
-        "E": ""
+        "E": "disputes, rivalry and agreements between rivals"
       },
       "answer": "B"
     },
     {
-      "id": "SOC130",
-      "num": 130,
+      "id": "SOC129",
+      "num": 129,
       "question": "Which of the following thinkers classified society into: a) rulers (aristocrats); b) fighters; c) artisans and farmers?",
       "options": {
         "A": "Plato",
         "B": "I. Kant",
         "C": "T. Gobbs",
         "D": "Pifagor",
-        "E": ""
+        "E": "Confucius"
       },
       "answer": "A"
     },
     {
-      "id": "SOC131",
-      "num": 131,
+      "id": "SOC130",
+      "num": 130,
       "question": "What are the functions of religion in modern society?",
       "options": {
         "A": "cognitive, segregated, economic",
         "B": "monitoring, prediction, research",
         "C": "worldview, knowledge and compensation",
         "D": "providing public security",
-        "E": ""
+        "E": "conducting a sociological survey"
       },
       "answer": "C"
     },
     {
-      "id": "SOC132",
-      "num": 132,
+      "id": "SOC131",
+      "num": 131,
       "question": "To which type of society does the class system belong?",
       "options": {
         "A": "traditional",
         "B": "closed",
         "C": "closed and open",
         "D": "half-closed and semi-open",
-        "E": ""
+        "E": "open"
       },
       "answer": "E"
     },
     {
-      "id": "SOC133",
-      "num": 133,
+      "id": "SOC132",
+      "num": 132,
       "question": "What is modernization?",
       "options": {
         "A": "the transition from a traditional agricultural society to modern industry society",
         "B": "the process of transition from modern industrial society to traditional agricultural society",
         "C": "the transition process from a slave-ownership society to the modern industrial society",
         "D": "the transition process from post-industrial society to the modern industrial society",
-        "E": ""
+        "E": "the transition process from feudal society to capitalist society"
       },
       "answer": "A"
     },
     {
-      "id": "SOC134",
-      "num": 134,
+      "id": "SOC133",
+      "num": 133,
       "question": "What is the famous book by T. Morra?",
       "options": {
         "A": "magic and religion",
         "B": "capital",
         "C": "sociology of religion",
         "D": "utopia",
-        "E": ""
+        "E": "Protestant ethics and the spirit of capitalism"
       },
       "answer": "D"
     },
     {
-      "id": "SOC135",
-      "num": 135,
+      "id": "SOC134",
+      "num": 134,
       "question": "What defines a nuclear family?",
       "options": {
         "A": "a set of social characteristics of behavior of men and women",
         "B": "a large family of several generations",
         "C": "the social characteristics of the equality of men and women",
         "D": "equality of men and women",
-        "E": ""
+        "E": "family based on parents and children"
       },
       "answer": "E"
     },
     {
-      "id": "SOC136",
-      "num": 136,
+      "id": "SOC135",
+      "num": 135,
       "question": "What are the types of spouse selection?",
       "options": {
         "A": "Endogamies and exogamies",
         "B": "incest",
         "C": "nuclear and wide",
         "D": "monogamy and polygamy",
-        "E": ""
+        "E": "polyandria and group"
       },
       "answer": "A"
     },
     {
-      "id": "SOC137",
-      "num": 137,
+      "id": "SOC136",
+      "num": 136,
       "question": "What is a patriarchal family?",
       "options": {
         "A": "the family in which the woman rules",
         "B": "a family in which men and women are equal",
         "C": "family in which a man rules",
         "D": "the family in which children dominate",
-        "E": ""
+        "E": "a family in which men and women have equal rights"
       },
       "answer": "C"
     },
     {
-      "id": "SOC138",
-      "num": 138,
+      "id": "SOC137",
+      "num": 137,
       "question": "Who among the following scientists owns the famous work \"violence against women,\" in which the phenomena of family life are analyzed?",
       "options": {
         "A": "S. Shoismatulloev",
         "B": "K. Bekzoda",
         "C": "M. Dinorschoev",
         "D": "Muzaffari",
-        "E": ""
+        "E": "E. Hyddens"
       },
       "answer": "A"
     },
     {
-      "id": "SOC139",
-      "num": 139,
+      "id": "SOC138",
+      "num": 138,
       "question": "Who is the author of \"primitive society\"?",
       "options": {
         "A": "V. I. Lenin",
         "B": "L. Morgan",
         "C": "E. Durkheim",
         "D": "P. Shozimamov",
-        "E": ""
+        "E": "M. Weber"
       },
       "answer": "B"
     },
     {
-      "id": "SOC140",
-      "num": 140,
+      "id": "SOC139",
+      "num": 139,
       "question": "Specify the concept of \"unemployment\"?",
       "options": {
         "A": "unemployment is a socio-economic phenomenon that occurs when a certain part of the labor force is not in demand in the labor market",
         "B": "poverty due to lack of safety",
         "C": "unemployment is not a social phenomenon",
         "D": "unemployment is a natural phenomenon that arises as a result of economic development and depends on the cultural, spiritual and moral state of society",
-        "E": ""
+        "E": "unemployment is a biological phenomenon caused by overproduction"
       },
       "answer": "A"
     },
     {
-      "id": "SOC141",
-      "num": 141,
+      "id": "SOC140",
+      "num": 140,
       "question": "What is a difficult life situation?",
       "options": {
         "A": "a difficult life situation is a good life situation",
         "B": "is a situation that improves the normal functioning of individuals and social groups and contributes to their normal functioning",
         "C": "is a situation that allows students to master modern skills",
         "D": "is a situation that ensures the normal functioning of the state and its normal functioning",
-        "E": ""
+        "E": "is a situation that undermines the normal functioning of individuals and social groups or threatens their normal functioning"
       },
       "answer": "E"
     },
     {
-      "id": "SOC142",
-      "num": 142,
+      "id": "SOC141",
+      "num": 141,
       "question": "What are the revolutionary changes in society?",
       "options": {
         "A": "revolutionary changes in society are destructive changes",
         "B": "revolutionary changes in society are gradual, systematicno and quantitative changes in society",
         "C": "revolutionary changes in society are defined as fast, urgent, radical and qualitative changes in society",
         "D": "there are no revolutionary changes in society",
-        "E": ""
+        "E": "Revolutionary changes in society are regressive"
       },
       "answer": "C"
     },
     {
-      "id": "SOC143",
-      "num": 143,
+      "id": "SOC142",
+      "num": 142,
       "question": "Identify the participants in the social conflict.",
       "options": {
         "A": "People, nation, family, religion",
-        "B": "Family, state, politics, nation, etc.",
-        "C": "Opponents, organizers, allies, witnesses, mediators, etc.",
+        "B": "Opponents, organizers, allies, witnesses, mediators, etc.",
+        "C": "Family, state, politics, nation, etc.",
         "D": "People, animals, plants, etc.",
-        "E": ""
+        "E": "Neighbors, relatives, organizers, allies, clans, etc."
       },
       "answer": "B"
     },
     {
-      "id": "SOC144",
-      "num": 144,
+      "id": "SOC143",
+      "num": 143,
       "question": "When was the Agreement on Peace and National Accord signed?",
       "options": {
         "A": "June 27, 1997",
         "B": "September 9, 1997",
         "C": "September 27, 1997",
         "D": "June 27, 1999",
-        "E": ""
+        "E": "July 27, 1998"
       },
       "answer": "A"
     },
     {
-      "id": "SOC145",
-      "num": 145,
+      "id": "SOC144",
+      "num": 144,
       "question": "In which theory was the model of a conflict-free society developed?",
       "options": {
         "A": "Conflict",
         "B": "Socialism",
         "C": "Functionalism",
         "D": "Positivism",
-        "E": ""
+        "E": "Existentialism"
       },
       "answer": "C"
     },
     {
-      "id": "SOC146",
-      "num": 146,
+      "id": "SOC145",
+      "num": 145,
       "question": "Which sociologist considers the violent suppression of conflict to be dangerous for society?",
       "options": {
         "A": "R. Dahrendorf",
         "B": "C. Lobroso",
         "C": "R. Merton",
         "D": "Z. Freud",
-        "E": ""
+        "E": "T. Parsons"
       },
       "answer": "A"
     },
     {
-      "id": "SOC147",
-      "num": 147,
+      "id": "SOC146",
+      "num": 146,
       "question": "Determine the level of knowledge in sociology.",
       "options": {
         "A": "Macrosociology and Microsociology",
         "B": "Realism and Existentialism",
         "C": "Monism and Polytheism",
         "D": "Positivism and Dualism",
-        "E": ""
+        "E": "Functionalism and Individualism"
       },
       "answer": "A"
     },
     {
-      "id": "SOC148",
-      "num": 148,
+      "id": "SOC147",
+      "num": 147,
       "question": "What questions take center stage in macrosociology?",
       "options": {
         "A": "Social system, institutions and social organizations",
         "B": "Realism and Existentialism",
         "C": "Functionalism, Structuralism and Individualism",
         "D": "Positivism and Dualism",
-        "E": ""
+        "E": "Small social groups with all their characteristics"
       },
       "answer": "A"
     },
     {
-      "id": "SOC149",
-      "num": 149,
+      "id": "SOC148",
+      "num": 148,
       "question": "What social problems does microsociology examine?",
       "options": {
         "A": "Behavior of individuals and small social groups",
         "B": "Realism and Existentialism",
         "C": "Monism and Polytheism",
         "D": "Positivism and Dualism",
-        "E": ""
+        "E": "Social system, institutions and social organizations"
       },
       "answer": "A"
     },
     {
-      "id": "SOC150",
-      "num": 150,
+      "id": "SOC149",
+      "num": 149,
       "question": "How did the American scientist N. Smelzer define sociology?",
       "options": {
         "A": "Sociology is a method of studying people",
         "B": "Sociology studies social institutions",
         "C": "Sociology studies social organizations",
         "D": "Sociology studies social communities",
-        "E": ""
+        "E": "Sociology studies ethnic groups"
       },
       "answer": "A"
     },
     {
-      "id": "SOC151",
-      "num": 151,
+      "id": "SOC150",
+      "num": 150,
       "question": "What are the advantages of unprecedented population growth?",
       "options": {
         "A": "All answers are wrong",
@@ -1967,164 +1954,164 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "SOC152",
-      "num": 152,
+      "id": "SOC151",
+      "num": 151,
       "question": "Which scientist is recognized as the founder of positivism?",
       "options": {
         "A": "O. Comte",
         "B": "N. Smeltser",
         "C": "G. Spencer",
         "D": "Aristotle",
-        "E": ""
+        "E": "L. Homans"
       },
       "answer": "A"
     },
     {
-      "id": "SOC153",
-      "num": 153,
+      "id": "SOC152",
+      "num": 152,
       "question": "What are the key players in social conflict?",
       "options": {
         "A": "Observers, neutrals, witnesses and intermediaries",
         "B": "the poor, marginalized, disadvantaged and victimized",
         "C": "people, social groups and state",
         "D": "the rich, political scientists, bureaucrats and celebrities",
-        "E": ""
+        "E": "Respondents, sociologists and psychologists"
       },
       "answer": "A"
     },
     {
-      "id": "SOC154",
-      "num": 154,
+      "id": "SOC153",
+      "num": 153,
       "question": "Who do they mean by \"opponents\" in social conflict?",
       "options": {
         "A": "Rural and urban migrants and passers-by",
         "B": "Compatriots and peers",
         "C": "People living in the same area or area",
         "D": "People who are friends and allies",
-        "E": ""
+        "E": "Warring parties"
       },
       "answer": "E"
     },
     {
-      "id": "SOC155",
-      "num": 155,
+      "id": "SOC154",
+      "num": 154,
       "question": "Who is referred to as allies in social conflict?",
       "options": {
         "A": "Subjects of social conflict involved in the struggle",
         "B": "Individuals who create social conflict with specific plans",
         "C": "Friendly and Allied Parties",
         "D": "Migrants and passers-by from rural to urban areas",
-        "E": ""
+        "E": "Warring parties"
       },
       "answer": "C"
     },
     {
-      "id": "SOC156",
-      "num": 156,
+      "id": "SOC155",
+      "num": 155,
       "question": "What methods did O. Comte suggest for collecting sociological data?",
       "options": {
         "A": "Content - analysis, experimentation, polling and observation",
         "B": "Observation, experimentation, comparison and historical method",
         "C": "Questionnaire, philosophical comparison and content analysis",
         "D": "Observation, interrogation, interviewing and experimentation",
-        "E": ""
+        "E": "Induction, Deduction and Integration"
       },
       "answer": "B"
     },
     {
-      "id": "SOC157",
-      "num": 157,
+      "id": "SOC156",
+      "num": 156,
       "question": "What did K. Marx mean by \"base\" and \"superstructure\"?",
       "options": {
         "A": "Productive Forces and Industrial Relations",
         "B": "Economics and politics",
         "C": "Industrial relations and political, legal, philosophical and religious views",
         "D": "Lower class and upper class",
-        "E": ""
+        "E": "Induction, Deduction and Integration"
       },
       "answer": "A"
     },
     {
-      "id": "SOC158",
-      "num": 158,
+      "id": "SOC157",
+      "num": 157,
       "question": "Which scientist founded the organic (biological) approach in sociology?",
       "options": {
         "A": "G. Spencer",
         "B": "O. Comte",
         "C": "P. Sorokin",
         "D": "Charles Darwin",
-        "E": ""
+        "E": "E. Durkheim"
       },
       "answer": "A"
     },
     {
-      "id": "SOC159",
-      "num": 159,
+      "id": "SOC158",
+      "num": 158,
       "question": "Who founded the theory of \"symbolic interactionism\"?",
       "options": {
         "A": "L. Mead",
         "B": "A. Schütz",
         "C": "L. Homans",
         "D": "P. Sorokin",
-        "E": ""
+        "E": "M. Weber"
       },
       "answer": "A"
     },
     {
-      "id": "SOC160",
-      "num": 160,
+      "id": "SOC159",
+      "num": 159,
       "question": "What types of cultures are distinguished?",
       "options": {
         "A": "Material and spiritual culture",
         "B": "Individual and group culture",
         "C": "Eastern and Western culture",
         "D": "Low and high culture",
-        "E": ""
+        "E": "Simple and complex culture"
       },
       "answer": "A"
     },
     {
-      "id": "SOC161",
-      "num": 161,
+      "id": "SOC160",
+      "num": 160,
       "question": "Reasons for the emergence of globalization:",
       "options": {
         "A": "The emergence of global problems, the scientific and technological revolution, and communication",
         "B": "Population growth",
         "C": "High levels of economic production, struggles for natural and social resources, a communication revolution, declining economic income, and food insecurity",
         "D": "Threat of World War",
-        "E": ""
+        "E": "Lack of information and environmental risks"
       },
       "answer": "A"
     },
     {
-      "id": "SOC162",
-      "num": 162,
+      "id": "SOC161",
+      "num": 161,
       "question": "What are the theories of social change?",
       "options": {
         "A": "Evolutionary, revolutionary, periodic theories, etc",
         "B": "bourgeois, communist and anarchist theories",
         "C": "Subjective, objective and dualistic theories",
         "D": "Communicative, informational, industrial theories, etc.",
-        "E": ""
+        "E": "Elite and Conflict Theory"
       },
       "answer": "A"
     },
     {
-      "id": "SOC163",
-      "num": 163,
+      "id": "SOC162",
+      "num": 162,
       "question": "What is the name of a social movement involving a person or group that does not involve a change in social status?",
       "options": {
         "A": "Horizontal mobility",
         "B": "Vertical downward mobility",
         "C": "Upward vertical offset",
         "D": "Transition from generation to generation",
-        "E": ""
+        "E": "Intra-generational mobility"
       },
       "answer": "A"
     },
     {
-      "id": "SOC164",
-      "num": 164,
+      "id": "SOC163",
+      "num": 163,
       "question": "The population census is a study conducted “in order to uncover the laws of sociology and, based on these laws, create a better life for people,” according to which scientist?",
       "options": {
         "A": "L. Tolstoy",
@@ -2136,60 +2123,60 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "SOC165",
-      "num": 165,
+      "id": "SOC164",
+      "num": 164,
       "question": "What is the constant mechanism for motivating knowledge and human activity?",
       "options": {
         "A": "Benefit",
         "B": "Activity",
         "C": "Pessimism",
         "D": "Ideology",
-        "E": ""
+        "E": "Imagination"
       },
       "answer": "A"
     },
     {
-      "id": "SOC166",
-      "num": 166,
+      "id": "SOC165",
+      "num": 165,
       "question": "What are the categories of sociology?",
       "options": {
         "A": "Society, social institutions, social strata, social relations, etc",
         "B": "Existence, enlightenment, consciousness, action and behavior",
         "C": "Push, speed, beauty, justice, rights, freedom of conscience, induction and deduction",
         "D": "Light, power, pressure, movement and production",
-        "E": ""
+        "E": "Good, evil, justice, injustice, inequality, happiness and love"
       },
       "answer": "A"
     },
     {
-      "id": "SOC167",
-      "num": 167,
+      "id": "SOC166",
+      "num": 166,
       "question": "Identify the members of the middle class.",
       "options": {
         "A": "managers, professionals, service workers and skilled workers",
         "B": "Priests, wealthy and bank employees",
         "C": "Philosophers, theologians, intellectuals, nobles and women",
         "D": "Carriages, car washes and walkers",
-        "E": ""
+        "E": "Wealthy, government officials, military personnel and bank employees"
       },
       "answer": "A"
     },
     {
-      "id": "SOC168",
-      "num": 168,
+      "id": "SOC167",
+      "num": 167,
       "question": "What is the change in a person's social and economic status?",
       "options": {
         "A": "Social mobility",
         "B": "Career growth",
         "C": "Degree",
         "D": "Political image",
-        "E": ""
+        "E": "Poverty"
       },
       "answer": "A"
     },
     {
-      "id": "SOC169",
-      "num": 169,
+      "id": "SOC168",
+      "num": 168,
       "question": "“The interest and significance of the population census for society lies in the fact that it gives us a mirror that will inevitably reflect the whole of society and each of us,” said:",
       "options": {
         "A": "L. Tolstoy",
@@ -2201,405 +2188,405 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "SOC170",
-      "num": 170,
+      "id": "SOC169",
+      "num": 169,
       "question": "Institutions that shape socialization and guide it in a certain direction:",
       "options": {
         "A": "are called social groups",
         "B": "institutionalization of society",
         "C": "are called socialization institutions",
         "D": "are called industrialization",
-        "E": ""
+        "E": "are called social classes"
       },
       "answer": "C"
     },
     {
-      "id": "SOC171",
-      "num": 171,
+      "id": "SOC170",
+      "num": 170,
       "question": "What social condition is referred to as anomie?",
       "options": {
         "A": "Violation of norms and values ​​in society",
         "B": "Exit from the economic crisis",
         "C": "Community development status",
         "D": "Improving human well-being",
-        "E": ""
+        "E": "Decrease in the standard of living of the population and society"
       },
       "answer": "A"
     },
     {
-      "id": "SOC172",
-      "num": 172,
+      "id": "SOC171",
+      "num": 171,
       "question": "The hypothesis is understood within sociological research:",
       "options": {
         "A": "Forecasting social changes, which is the object of sociological research",
         "B": "Description of polling rules",
         "C": "Forecasts of naturalists",
         "D": "Choice of social indicators and indicators",
-        "E": ""
+        "E": "Political processes that have a significant impact on people's lives"
       },
       "answer": "A"
     },
     {
-      "id": "SOC173",
-      "num": 173,
+      "id": "SOC172",
+      "num": 172,
       "question": "What is the subject of sociological research?",
       "options": {
         "A": "A social issue that has become the focus of sociological research",
         "B": "The laws of the development of human society",
         "C": "Social life, which has its own laws of formation",
         "D": "Cultural, moral, legal and universal manifestations",
-        "E": ""
+        "E": "Political relations"
       },
       "answer": "A"
     },
     {
-      "id": "SOC174",
-      "num": 174,
+      "id": "SOC173",
+      "num": 173,
       "question": "The following operations can be conducted with sociological data:",
       "options": {
         "A": "Processing, analysis, classification and tabulation",
         "B": "Data interpretation and extraction",
         "C": "Placement in chemical and physical formulas and",
         "D": "Adoption and planning",
-        "E": ""
+        "E": "Analyze, define, classify and tabulate"
       },
       "answer": "A"
     },
     {
-      "id": "SOC175",
-      "num": 175,
+      "id": "SOC174",
+      "num": 174,
       "question": "The method of sociological research that systematically records social processes, phenomena, situations and facts is called?",
       "options": {
         "A": "Observation",
         "B": "Document analysis",
         "C": "Application form",
         "D": "Interview",
-        "E": ""
+        "E": "Experiment"
       },
       "answer": "A"
     },
     {
-      "id": "SOC176",
-      "num": 176,
+      "id": "SOC175",
+      "num": 175,
       "question": "“The family is the foundation of society.” Said:",
       "options": {
         "A": "E. Rakhmon",
         "B": "S. Ayni",
         "C": "M. Tursunzoda",
         "D": "B. Gafurov",
-        "E": ""
+        "E": "P. Sorokin"
       },
       "answer": "A"
     },
     {
-      "id": "SOC177",
-      "num": 177,
+      "id": "SOC176",
+      "num": 176,
       "question": "What is the most widely used category in sociology?",
       "options": {
         "A": "Social",
         "B": "Family",
         "C": "Society",
         "D": "Economics",
-        "E": ""
+        "E": "Politics"
       },
       "answer": "A"
     },
     {
-      "id": "SOC178",
-      "num": 178,
+      "id": "SOC177",
+      "num": 177,
       "question": "What is the name of the political regime in which the government is formed based on free elections?",
       "options": {
         "A": "Monarchy",
         "B": "Technocrats",
         "C": "Autocracy",
         "D": "Democracy",
-        "E": ""
+        "E": "Totalitarian"
       },
       "answer": "D"
     },
     {
-      "id": "SOC179",
-      "num": 179,
+      "id": "SOC178",
+      "num": 178,
       "question": "What is the name of the sociological research method that is conducted orally and requires the respondent's mandatory participation?",
       "options": {
         "A": "Application form",
         "B": "Document analysis",
         "C": "Interview",
         "D": "Observation",
-        "E": ""
+        "E": "Experiment"
       },
       "answer": "C"
     },
     {
-      "id": "SOC180",
-      "num": 180,
+      "id": "SOC179",
+      "num": 179,
       "question": "Which document reflects the results of the sociological research?",
       "options": {
         "A": "Message",
         "B": "Plan",
         "C": "Application",
         "D": "Application form",
-        "E": ""
+        "E": "Report"
       },
       "answer": "E"
     },
     {
-      "id": "SOC181",
-      "num": 181,
+      "id": "SOC180",
+      "num": 180,
       "question": "Which ideology promotes social equality in society?",
       "options": {
         "A": "Nationalism",
         "B": "Socialism",
         "C": "Communism",
         "D": "Humanism",
-        "E": ""
+        "E": "Conservatism"
       },
       "answer": "B"
     },
     {
-      "id": "SOC182",
-      "num": 182,
+      "id": "SOC181",
+      "num": 181,
       "question": "Which ideology is rooted in tradition and values?",
       "options": {
         "A": "Conservatism",
         "B": "Socialism",
         "C": "Communism",
         "D": "Humanism",
-        "E": ""
+        "E": "Nationalism"
       },
       "answer": "A"
     },
     {
-      "id": "SOC183",
-      "num": 183,
+      "id": "SOC182",
+      "num": 182,
       "question": "What does race mean?",
       "options": {
         "A": "A group of people with common biological similarities",
         "B": "Relatives and peers",
         "C": "A community of people united by territory, customs, economic life and consciousness",
         "D": "An association of people who share a common language, customs and destiny",
-        "E": ""
+        "E": "People of the same language and culture"
       },
       "answer": "A"
     },
     {
-      "id": "SOC184",
-      "num": 184,
+      "id": "SOC183",
+      "num": 183,
       "question": "From a Marxist perspective, a nation is:",
       "options": {
         "A": "a large and stable group of individuals who share a common language, territory, economy, culture, identity, and name",
         "B": "a small social group based on kinship",
         "C": "a group of people with common biological characteristics",
         "D": "a small social group, formed on the basis of friendship, has no linguistic, territorial, economic, cultural or identity",
-        "E": ""
+        "E": "a group of citizens of a state who do not share a common language, territory, economy, culture or identity"
       },
       "answer": "A"
     },
     {
-      "id": "SOC185",
-      "num": 185,
+      "id": "SOC184",
+      "num": 184,
       "question": "During which historical period was the nation formed?",
       "options": {
         "A": "In the era of capitalism",
         "B": "Always been",
         "C": "Generated periodically",
         "D": "During the period of feudalism",
-        "E": ""
+        "E": "In the era of socialism"
       },
       "answer": "A"
     },
     {
-      "id": "SOC186",
-      "num": 186,
+      "id": "SOC185",
+      "num": 185,
       "question": "Democracy is:",
       "options": {
         "A": "the form of the state-political structure of society, founded on the recognition of the people as the source of power",
         "B": "the power of the poor and homeless",
         "C": "the power of the rich",
         "D": "a form of absolute power of one person",
-        "E": ""
+        "E": "a special form of social organization in a society in which the center of executive power is independent of the majority of its members"
       },
       "answer": "A"
     },
     {
-      "id": "SOC187",
-      "num": 187,
+      "id": "SOC186",
+      "num": 186,
       "question": "What is globalization?",
       "options": {
         "A": "The unification and interdependence of the world's peoples in a single social space.",
         "B": "Conflicts between the peoples of the world and their deterioration",
         "C": "Modernization and industrialization of society",
         "D": "Complexity of social relationships",
-        "E": ""
+        "E": "Economic development of post-industrial countries"
       },
       "answer": "A"
     },
     {
-      "id": "SOC188",
-      "num": 188,
+      "id": "SOC187",
+      "num": 187,
       "question": "What is the primary role of social mobility in law?",
       "options": {
         "A": "Creation of conditions for changing the social and economic status of a person",
         "B": "How to monitor poo eating people",
         "C": "Protection of the rights and freedoms of citizens",
         "D": "Raising awareness and legal culture of citizens",
-        "E": ""
+        "E": "Regulation of public relations"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "SOC188",
+      "num": 188,
+      "question": "What are the characteristics of the transition period?",
+      "options": {
+        "A": "Anomy and aggravation of conflicts in all spheres of public life",
+        "B": "Development of various aspects of public life",
+        "C": "Scientific, technical and communication progress",
+        "D": "Development of culture and the formation of people's consciousness",
+        "E": "Deterioration of social foresight and cultural conflicts"
       },
       "answer": "A"
     },
     {
       "id": "SOC189",
       "num": 189,
-      "question": "What are the characteristics of the transition period?",
-      "options": {
-        "A": "",
-        "B": "",
-        "C": "Scientific, technical and communication progress",
-        "D": "Development of culture and the formation of people's consciousness",
-        "E": ""
-      },
-      "answer": "A"
-    },
-    {
-      "id": "SOC190",
-      "num": 190,
       "question": "What is futurology?",
       "options": {
         "A": "A branch of science that studies the laws of forecasting development",
         "B": "Political Science and Cultural Studies",
         "C": "Branch of science encompassing traditional knowledge",
         "D": "A branch of science that studies the most general laws of the development of the human mind",
-        "E": ""
+        "E": "Sociological theory"
       },
       "answer": "A"
     },
     {
-      "id": "SOC191",
-      "num": 191,
+      "id": "SOC190",
+      "num": 190,
       "question": "What is the name of the political regime in which the government is formed based on free elections?",
       "options": {
         "A": "Democracy",
         "B": "Technocrats",
         "C": "Autocracy",
         "D": "Monarchy",
-        "E": ""
+        "E": "Totalitarian"
       },
       "answer": "A"
     },
     {
-      "id": "SOC192",
-      "num": 192,
+      "id": "SOC191",
+      "num": 191,
       "question": "Which factors will cause changes in society?",
       "options": {
         "A": "Scientific and technological revolution, the spread of culture and the development of production",
         "B": "Requirements, rules, regulations, inclinations and religious expectations",
         "C": "rules of conduct for individuals and social groups",
         "D": "Material and spiritual benefits",
-        "E": ""
+        "E": "Requirements, rules, orders, tendencies and expectations of individuals and families for appropriate behavior that guide social action are reflected in expected socially “right” or “dignified” behavior"
       },
       "answer": "A"
     },
     {
-      "id": "SOC193",
-      "num": 193,
+      "id": "SOC192",
+      "num": 192,
       "question": "Which political regime operates with a one-party structure?",
       "options": {
         "A": "Authoritarian",
         "B": "Democracy",
         "C": "Totalitarian",
         "D": "Theocracy",
-        "E": ""
+        "E": "Autocracy"
       },
       "answer": "C"
     },
     {
-      "id": "SOC194",
-      "num": 194,
+      "id": "SOC193",
+      "num": 193,
       "question": "What computer program can most effectively analyze quantitative research results?",
       "options": {
         "A": "SPSS",
         "B": "Power Point",
         "C": "Publisher",
         "D": "Word",
-        "E": ""
+        "E": "Outlook"
       },
       "answer": "A"
     },
     {
-      "id": "SOC195",
-      "num": 195,
+      "id": "SOC194",
+      "num": 194,
       "question": "Socio-demographic information includes:",
       "options": {
         "A": "gender of the respondent",
         "B": "type of television of the respondent",
         "C": "respondent's favorite music",
         "D": "respondent's house number",
-        "E": ""
+        "E": "the respondent's way of thinking"
       },
       "answer": "A"
     },
     {
-      "id": "SOC196",
-      "num": 196,
+      "id": "SOC195",
+      "num": 195,
       "question": "How many participants are required to conduct a focus group?",
       "options": {
         "A": "12-16 people",
         "B": "4-5 people",
         "C": "6-10 people",
         "D": "6-12 people",
-        "E": ""
+        "E": "10-20 people"
       },
       "answer": "D"
     },
     {
-      "id": "SOC197",
-      "num": 197,
+      "id": "SOC196",
+      "num": 196,
       "question": "What is a transcript?",
       "options": {
         "A": "The process of converting written or oral information",
         "B": "The process of converting oral information into written form",
         "C": "Data coding and statistical analysis",
         "D": "Define the goals and objectives of the study",
-        "E": ""
+        "E": "Suggestion of hypotheses and logical analysis of concepts"
       },
       "answer": "B"
     },
     {
-      "id": "SOC198",
-      "num": 198,
+      "id": "SOC197",
+      "num": 197,
       "question": "Functions of law as a social institution:",
       "options": {
         "A": "Maintenance of public order and social mobility",
         "B": "Establishing social production",
         "C": "Meeting social needs",
         "D": "Establishing a hierarchy of power",
-        "E": ""
+        "E": "Regulation and protection of public relations"
       },
       "answer": "E"
     },
     {
-      "id": "SOC199",
-      "num": 199,
+      "id": "SOC198",
+      "num": 198,
       "question": "Functions of politics as a social institution:",
       "options": {
         "A": "the hierarchy of power and production",
         "B": "protecting the rights and responsibilities of people",
         "C": "Ensuring safety, public order and government",
         "D": "defend the homeland and national interests",
-        "E": ""
+        "E": "satisfaction of material needs of people"
       },
       "answer": "C"
     },
     {
-      "id": "SOC200",
-      "num": 200,
+      "id": "SOC199",
+      "num": 199,
       "question": "Functions of the economy as a social institution:",
       "options": {
         "A": "production, distribution of goods and services",
         "B": "satisfying the moral needs of citizens",
         "C": "mastering the environment",
         "D": "ensuring the well-being of people",
-        "E": ""
+        "E": "reproduction of life"
       },
       "answer": "A"
     }
@@ -3479,7 +3466,7 @@ export const QUESTIONS = {
     {
       "id": "CUL068",
       "num": 68,
-      "question": "Who owns the primacy in creating paper, tea, porcelain, gunpowder, an umbrella?",
+      "question": "Who owns the primacy in creating paper, tea, porcelain,",
       "options": {
         "A": "to the Egyptians",
         "B": "Russian",
@@ -3661,7 +3648,7 @@ export const QUESTIONS = {
     {
       "id": "CUL082",
       "num": 82,
-      "question": "Name the cities that were scientific centers of Rome empire?",
+      "question": "Name the cities that were scientific centers of Rome",
       "options": {
         "A": "Sogd, Bactria",
         "B": "Carthage, Rome, Athens, Alexandria",
@@ -5461,7 +5448,7 @@ export const QUESTIONS = {
         "B": "Aphrodite",
         "C": "Victoria",
         "D": "Lada",
-        "E": "None"
+        "E": ""
       },
       "answer": "A"
     },
@@ -5565,7 +5552,7 @@ export const QUESTIONS = {
         "B": "Milet",
         "C": "Mycenae",
         "D": "Alexandria",
-        "E": "None"
+        "E": ""
       },
       "answer": "A"
     },
@@ -7318,30 +7305,17 @@ export const QUESTIONS = {
       "num": 76,
       "question": "What month did the riots of 1990 take place?",
       "options": {
-        "A": "January",
-        "B": "February",
-        "C": "May",
-        "D": "September",
-        "E": "November"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "HIS077",
-      "num": 77,
-      "question": "When did the Supreme Council of the Republic of Tajikistan approve the Law \"On granting state status to the Tajik language\"?",
-      "options": {
         "A": "Year 1951",
         "B": "Year 1967",
         "C": "Year 1978",
         "D": "Year 1989",
         "E": "Year 1991"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "HIS078",
-      "num": 78,
+      "id": "HIS077",
+      "num": 77,
       "question": "Who was the first president of the republic?",
       "options": {
         "A": "K. Mahkamov",
@@ -7353,8 +7327,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS079",
-      "num": 79,
+      "id": "HIS078",
+      "num": 78,
       "question": "What does \"multi-party\" mean?",
       "options": {
         "A": "conflict between political parties for power",
@@ -7366,8 +7340,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS080",
-      "num": 80,
+      "id": "HIS079",
+      "num": 79,
       "question": "What does \"bureaucrat\" mean?",
       "options": {
         "A": "who ignores the essence of work for the sake of unimportant formalities, a bureaucrat, a paper worker",
@@ -7379,8 +7353,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS081",
-      "num": 81,
+      "id": "HIS080",
+      "num": 80,
       "question": "What does \"veto\" mean?",
       "options": {
         "A": "formalization of a separate law",
@@ -7392,8 +7366,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS082",
-      "num": 82,
+      "id": "HIS081",
+      "num": 81,
       "question": "What tragic event was the reason for the start of the civil war in Tajikistan?",
       "options": {
         "A": "liquidation of the Russian Federation",
@@ -7405,8 +7379,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS083",
-      "num": 83,
+      "id": "HIS082",
+      "num": 82,
       "question": "When did the civil war begin?",
       "options": {
         "A": "May 1992",
@@ -7418,8 +7392,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS084",
-      "num": 84,
+      "id": "HIS083",
+      "num": 83,
       "question": "What does \"genocide\" mean?",
       "options": {
         "A": "extermination of race, generation; extermination of a certain population group based on racial, national, ethnic or religious characteristics",
@@ -7431,8 +7405,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS085",
-      "num": 85,
+      "id": "HIS084",
+      "num": 84,
       "question": "In what year was elected Emomali Rahmon in the position of Chairman of the Supreme Council of the Republic of Tajikistan?",
       "options": {
         "A": "September 17, 1991",
@@ -7444,8 +7418,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS086",
-      "num": 86,
+      "id": "HIS085",
+      "num": 85,
       "question": "What day is the Day of the President of the Republic of Tajikistan?",
       "options": {
         "A": "November 16",
@@ -7457,8 +7431,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS087",
-      "num": 87,
+      "id": "HIS086",
+      "num": 86,
       "question": "When was adopted the Declaration \"On the Independence of the Republic of Tajikistan\"?",
       "options": {
         "A": "September 9, 1991",
@@ -7470,8 +7444,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS088",
-      "num": 88,
+      "id": "HIS087",
+      "num": 87,
       "question": "How many stages did the negotiations between the Tajiks consist of?",
       "options": {
         "A": "From 6 stages",
@@ -7483,8 +7457,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS089",
-      "num": 89,
+      "id": "HIS088",
+      "num": 88,
       "question": "When and where was the Commonwealth of Independent States (CIS) founded?",
       "options": {
         "A": "December 1991 in Belovezhsk, Belarus",
@@ -7496,8 +7470,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS090",
-      "num": 90,
+      "id": "HIS089",
+      "num": 89,
       "question": "When the Republic of Tajikistan became a member of the UN?",
       "options": {
         "A": "From March 2, 1992",
@@ -7509,8 +7483,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS091",
-      "num": 91,
+      "id": "HIS090",
+      "num": 90,
       "question": "What is the economic damage of the civil war of 1992-1997?",
       "options": {
         "A": "More than 11 billion somoni",
@@ -7522,8 +7496,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS092",
-      "num": 92,
+      "id": "HIS091",
+      "num": 91,
       "question": "What year was the referendum held in the Soviet Union on the preservation of the Soviet Union and what was the result?",
       "options": {
         "A": "On March 17, 1991, they voted in favor of the existence of the USSR",
@@ -7535,8 +7509,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS093",
-      "num": 93,
+      "id": "HIS092",
+      "num": 92,
       "question": "In March-May 1992, under the pressure of \"Shahidon\" and \"Ozodi\" squares, a new government was established, what was its name?",
       "options": {
         "A": "National government",
@@ -7548,8 +7522,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS094",
-      "num": 94,
+      "id": "HIS093",
+      "num": 93,
       "question": "Who are the heroes of Independent Tajikistan?",
       "options": {
         "A": "Spitamen, Devashtich, Sumbodi Mugh, Vose",
@@ -7561,8 +7535,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS095",
-      "num": 95,
+      "id": "HIS094",
+      "num": 94,
       "question": "Who are the heroes of Tajik people?",
       "options": {
         "A": "Spitamen, Devashtich, Mukanna, Temurmalik, Vose",
@@ -7574,8 +7548,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS096",
-      "num": 96,
+      "id": "HIS095",
+      "num": 95,
       "question": "How many chambers does the Supreme Assembly of the Republic of Tajikistan consist of?",
       "options": {
         "A": "From one chamber: the National Assembly of the Supreme Assembly",
@@ -7587,8 +7561,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS097",
-      "num": 97,
+      "id": "HIS096",
+      "num": 96,
       "question": "When did the multi-party structure in Tajikistan take place?",
       "options": {
         "A": "After gaining state independence",
@@ -7600,8 +7574,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS098",
-      "num": 98,
+      "id": "HIS097",
+      "num": 97,
       "question": "When and where was born Loiq Sherali?",
       "options": {
         "A": "in 1940 in Ayni",
@@ -7613,8 +7587,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS099",
-      "num": 99,
+      "id": "HIS098",
+      "num": 98,
       "question": "When and on what basis was the professional parliament established in Tajikistan?",
       "options": {
         "A": "In 1999, based on the introduction of amendments to the Constitution of the Republic of Tajikistan on the division of state power into three independent branches",
@@ -7626,8 +7600,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS100",
-      "num": 100,
+      "id": "HIS099",
+      "num": 99,
       "question": "According to the Constitution of Tajikistan, the state power is divided into how many branches?",
       "options": {
         "A": "To two branches: legislative and executive power",
@@ -7639,8 +7613,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS101",
-      "num": 101,
+      "id": "HIS100",
+      "num": 100,
       "question": "How many amendments have been made to the Constitution of the Republic of Tajikistan?",
       "options": {
         "A": "Three times: 1997, 1999, 2001",
@@ -7652,8 +7626,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS102",
-      "num": 102,
+      "id": "HIS101",
+      "num": 101,
       "question": "According to the Constitution, who is the head of the executive power in Tajikistan?",
       "options": {
         "A": "Prime Minister",
@@ -7665,8 +7639,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS103",
-      "num": 103,
+      "id": "HIS102",
+      "num": 102,
       "question": "How many years is the term of election of representatives of the Supreme Assembly of the Republic of Tajikistan?",
       "options": {
         "A": "2 years",
@@ -7678,8 +7652,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS104",
-      "num": 104,
+      "id": "HIS103",
+      "num": 103,
       "question": "When was awarded Bobojon Gafurov the title \"Hero of Tajikistan\"?",
       "options": {
         "A": "May 10, 1998",
@@ -7691,8 +7665,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS105",
-      "num": 105,
+      "id": "HIS104",
+      "num": 104,
       "question": "When was awarded Sadriddin Ayni the title \"Hero of Tajikistan\"?",
       "options": {
         "A": "April 4, 1996",
@@ -7704,8 +7678,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS106",
-      "num": 106,
+      "id": "HIS105",
+      "num": 105,
       "question": "When was awarded Emomali Rahmon the title \"Hero of Tajikistan\"?",
       "options": {
         "A": "January 21, 1996",
@@ -7717,8 +7691,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS107",
-      "num": 107,
+      "id": "HIS106",
+      "num": 106,
       "question": "Which of these days is celebrated as the date of the Tajik press and related to which historical event?",
       "options": {
         "A": "February 6, with the publication of the \"Red Tajikistan\" newspaper",
@@ -7730,8 +7704,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS108",
-      "num": 108,
+      "id": "HIS107",
+      "num": 107,
       "question": "What year was the city of Dushanbe awarded with which of these international awards?",
       "options": {
         "A": "In 2004, the \"City of Peace\" award",
@@ -7743,8 +7717,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS109",
-      "num": 109,
+      "id": "HIS108",
+      "num": 108,
       "question": "What year was adopted the law \"On Education\"?",
       "options": {
         "A": "December 21, 1992",
@@ -7756,8 +7730,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS110",
-      "num": 110,
+      "id": "HIS109",
+      "num": 109,
       "question": "What pass connects Tajikistan with the People's Republic of China?",
       "options": {
         "A": "Shahristan Pass",
@@ -7769,8 +7743,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS111",
-      "num": 111,
+      "id": "HIS110",
+      "num": 110,
       "question": "What year was held the 1st Congress of the People's Democratic Party of Tajikistan?",
       "options": {
         "A": "December 10, 1994",
@@ -7782,8 +7756,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS112",
-      "num": 112,
+      "id": "HIS111",
+      "num": 111,
       "question": "When was adopted the Law of the Republic of Tajikistan \"On Political Parties\" and what kind of system is this?",
       "options": {
         "A": "on December 10, 1994, the sign of the capital society",
@@ -7795,8 +7769,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS113",
-      "num": 113,
+      "id": "HIS112",
+      "num": 112,
       "question": "What year was celebrated the 2700th anniversary of the book \"Avesta\"?",
       "options": {
         "A": "May 2000",
@@ -7808,8 +7782,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS114",
-      "num": 114,
+      "id": "HIS113",
+      "num": 113,
       "question": "When did the Republic of Tajikistan adopt the policy of \"open doors\"?",
       "options": {
         "A": "Year 2000",
@@ -7821,8 +7795,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS115",
-      "num": 115,
+      "id": "HIS114",
+      "num": 114,
       "question": "When was founded the Party of Economic Reforms of Tajikistan?",
       "options": {
         "A": "October 20, 2005",
@@ -7834,8 +7808,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS116",
-      "num": 116,
+      "id": "HIS115",
+      "num": 115,
       "question": "When was adopted the \"National concept of education in the Republic of Tajikistan\"?",
       "options": {
         "A": "July 7, 2007",
@@ -7847,8 +7821,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS117",
-      "num": 117,
+      "id": "HIS116",
+      "num": 116,
       "question": "What year was declared by UNESCO as the \"Year of Jaloliddin Balkhi\"?",
       "options": {
         "A": "Year 2007",
@@ -7860,8 +7834,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS118",
-      "num": 118,
+      "id": "HIS117",
+      "num": 117,
       "question": "When was adopted the law \"On youth and state youth policy\"?",
       "options": {
         "A": "July 7, 2007",
@@ -7873,8 +7847,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS119",
-      "num": 119,
+      "id": "HIS118",
+      "num": 118,
       "question": "Dedicated to the 1150th anniversary of the birth of Abuabdulloh Rudaki, what year was declared the \"Year of Rudaki\"?",
       "options": {
         "A": "Year 2007",
@@ -7886,8 +7860,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS120",
-      "num": 120,
+      "id": "HIS119",
+      "num": 119,
       "question": "When was founded the open joint-stock company \"Rogun hydropower plant\"?",
       "options": {
         "A": "Year 2007",
@@ -7899,8 +7873,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS121",
-      "num": 121,
+      "id": "HIS120",
+      "num": 120,
       "question": "When was the National Palace (the construction of which started in 2002) , the \"Master Rudaki Garden\" and the statue of A. Rudaki opened in Dushanbe?",
       "options": {
         "A": "November 7, 2007",
@@ -7912,8 +7886,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS122",
-      "num": 122,
+      "id": "HIS121",
+      "num": 121,
       "question": "When was the fourth republican studio \"Jahonamo\" founded?",
       "options": {
         "A": "November 7, 2006",
@@ -7925,8 +7899,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS123",
-      "num": 123,
+      "id": "HIS122",
+      "num": 122,
       "question": "When did residents of Dushanbe connect to the Internet?",
       "options": {
         "A": "Year 1985",
@@ -7938,8 +7912,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS124",
-      "num": 124,
+      "id": "HIS123",
+      "num": 123,
       "question": "In what year Emomali Rahmon was elected the President of the Republic of Tajikistan for the first time as a result of the national referendum?",
       "options": {
         "A": "Year 1999",
@@ -7951,8 +7925,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS125",
-      "num": 125,
+      "id": "HIS124",
+      "num": 124,
       "question": "When Nusratullo Makhsum (N. Lutfulloev) was awarded the title \"Hero of Tajikistan\"?",
       "options": {
         "A": "September 8, 1997",
@@ -7964,8 +7938,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS126",
-      "num": 126,
+      "id": "HIS125",
+      "num": 125,
       "question": "When Shirinshoh Shohtemur was awarded the title \"Hero of Tajikistan\"?",
       "options": {
         "A": "December 11, 2006",
@@ -7977,8 +7951,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS127",
-      "num": 127,
+      "id": "HIS126",
+      "num": 126,
       "question": "When the 1100th anniversary of the Samanid state was celebrated?",
       "options": {
         "A": "December 1993",
@@ -7990,8 +7964,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS128",
-      "num": 128,
+      "id": "HIS127",
+      "num": 127,
       "question": "In which year was the UN agreement on the international status of Novruz approved?",
       "options": {
         "A": "Year 2008",
@@ -8003,8 +7977,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS129",
-      "num": 129,
+      "id": "HIS128",
+      "num": 128,
       "question": "The book \"Looking at Aryan history and civilization\" was published by which author and in what year?",
       "options": {
         "A": "Emomali Rahmon in 2006",
@@ -8016,8 +7990,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS130",
-      "num": 130,
+      "id": "HIS129",
+      "num": 129,
       "question": "When and where was held the 16th session of the Supreme Council of Tajikistan?",
       "options": {
         "A": "November-December 1992, in Khujand",
@@ -8029,8 +8003,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS131",
-      "num": 131,
+      "id": "HIS130",
+      "num": 130,
       "question": "The general agreement \"On the restoration of peace and national unity in Tajikistan\" where was signed?",
       "options": {
         "A": "June 27, 1997, in Moscow",
@@ -8042,8 +8016,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS132",
-      "num": 132,
+      "id": "HIS131",
+      "num": 131,
       "question": "How many years will the President of the Republic of Tajikistan are elected?",
       "options": {
         "A": "4 years",
@@ -8055,8 +8029,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS133",
-      "num": 133,
+      "id": "HIS132",
+      "num": 132,
       "question": "Who is the author of the book \"Tajiks in the Mirror of History\"?",
       "options": {
         "A": "Z. Rajabov",
@@ -8068,8 +8042,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS134",
-      "num": 134,
+      "id": "HIS133",
+      "num": 133,
       "question": "When and how the constitution Tajikistan was adopted?",
       "options": {
         "A": "November 6, 1994, through a nationwide referendum (referendum)",
@@ -8081,8 +8055,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS135",
-      "num": 135,
+      "id": "HIS134",
+      "num": 134,
       "question": "When the last amendments made to the Constitution of Tajikistan?",
       "options": {
         "A": "May 22, 2016",
@@ -8094,8 +8068,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS136",
-      "num": 136,
+      "id": "HIS135",
+      "num": 135,
       "question": "What year was declared the year of \"Family\" by the Leader of the Nation, Emomali Rahmon?",
       "options": {
         "A": "year 2013",
@@ -8107,8 +8081,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS137",
-      "num": 137,
+      "id": "HIS136",
+      "num": 136,
       "question": "What year was declared \"Year of Youth\" by the Leader of the Nation, Emomali Rahmon?",
       "options": {
         "A": "year 2014",
@@ -8120,8 +8094,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS138",
-      "num": 138,
+      "id": "HIS137",
+      "num": 137,
       "question": "What year was declared by the Leader of the Nation, Emomali Rahmon, as the year of \"Development of tourism and folk crafts\"?",
       "options": {
         "A": "year 2012",
@@ -8133,8 +8107,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS139",
-      "num": 139,
+      "id": "HIS138",
+      "num": 138,
       "question": "When was the first working visit of the President of the Republic of Uzbekistan Shavkat Mirziyoyev to Tajikistan?",
       "options": {
         "A": "March 7, 2018",
@@ -8146,8 +8120,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS140",
-      "num": 140,
+      "id": "HIS139",
+      "num": 139,
       "question": "Who is the author of the book \"Chehrahoi mondagor\" and what year was it published?",
       "options": {
         "A": "Yusufshah Yakubov, 2015",
@@ -8159,8 +8133,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS141",
-      "num": 141,
+      "id": "HIS140",
+      "num": 140,
       "question": "What years does the \"International Water Decade of Action for Sustainable Development\" include?",
       "options": {
         "A": "2014-2024",
@@ -8172,8 +8146,8 @@ export const QUESTIONS = {
       "answer": "E"
     },
     {
-      "id": "HIS142",
-      "num": 142,
+      "id": "HIS141",
+      "num": 141,
       "question": "When was the National Museum of Tajikistan put into use?",
       "options": {
         "A": "Year 2010",
@@ -8185,8 +8159,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS143",
-      "num": 143,
+      "id": "HIS142",
+      "num": 142,
       "question": "What regional organization does Tajikistan belong to?",
       "options": {
         "A": "UN",
@@ -8198,8 +8172,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS144",
-      "num": 144,
+      "id": "HIS143",
+      "num": 143,
       "question": "Tajikistan has established diplomatic relations with more than how many countries of the world?",
       "options": {
         "A": "With 130",
@@ -8211,8 +8185,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS145",
-      "num": 145,
+      "id": "HIS144",
+      "num": 144,
       "question": "In what year were changes and additions made to the Law of the Republic of Tajikistan \"On Regulation, Traditions and Celebrations\"?",
       "options": {
         "A": "year 2014",
@@ -8224,8 +8198,8 @@ export const QUESTIONS = {
       "answer": "D"
     },
     {
-      "id": "HIS146",
-      "num": 146,
+      "id": "HIS145",
+      "num": 145,
       "question": "When and where was held the first round of negotiations between the Tajik opposition and the Government of the Republic of Tajikistan?",
       "options": {
         "A": "from April 5 to 19, 1994 in Moscow",
@@ -8237,8 +8211,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS147",
-      "num": 147,
+      "id": "HIS146",
+      "num": 146,
       "question": "When and where was held the second round of negotiations between the Tajik opposition and the Government of the Republic of Tajikistan?",
       "options": {
         "A": "from April 5 to 19, 1994 in Moscow",
@@ -8250,8 +8224,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS148",
-      "num": 148,
+      "id": "HIS147",
+      "num": 147,
       "question": "When and where was held the fourth round of negotiations between the Tajik opposition and the Government of the Republic of Tajikistan?",
       "options": {
         "A": "from May 22 to June 2, 1995 in Almaty",
@@ -8263,8 +8237,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS149",
-      "num": 149,
+      "id": "HIS148",
+      "num": 148,
       "question": "Which political and prominent figure of Afghanistan contributed to the achievement of peace for the Tajiks?",
       "options": {
         "A": "Hamid Karzai",
@@ -8276,8 +8250,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS150",
-      "num": 150,
+      "id": "HIS149",
+      "num": 149,
       "question": "In what year was celebrated the 30th anniversary of the Independence of the Republic of Tajikistan?",
       "options": {
         "A": "September 2020",
@@ -8289,8 +8263,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS151",
-      "num": 151,
+      "id": "HIS150",
+      "num": 150,
       "question": "Who was the first secretary of the Republic of Tajikistan in 1961-1982?",
       "options": {
         "A": "Jabbor Rasulov",
@@ -8302,8 +8276,8 @@ export const QUESTIONS = {
       "answer": "A"
     },
     {
-      "id": "HIS152",
-      "num": 152,
+      "id": "HIS151",
+      "num": 151,
       "question": "When did reconstruction begin in the Soviet society?",
       "options": {
         "A": "May 1982",
@@ -8315,8 +8289,8 @@ export const QUESTIONS = {
       "answer": "B"
     },
     {
-      "id": "HIS153",
-      "num": 153,
+      "id": "HIS152",
+      "num": 152,
       "question": "Since what year the National Language Day celebrated on October 5?",
       "options": {
         "A": "Year 2005",
@@ -8328,8 +8302,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS154",
-      "num": 154,
+      "id": "HIS153",
+      "num": 153,
       "question": "When was opened the National Library of Tajikistan?",
       "options": {
         "A": "March 20, 2013",
@@ -8341,8 +8315,8 @@ export const QUESTIONS = {
       "answer": "C"
     },
     {
-      "id": "HIS155",
-      "num": 155,
+      "id": "HIS154",
+      "num": 154,
       "question": "What year did Tajikistan produce more than 1 million tons of cotton?",
       "options": {
         "A": "Year 1978",
@@ -8358,7 +8332,7 @@ export const QUESTIONS = {
 
 export const SUBJECTS = ["Sociology", "Culturology", "History"];
 export const SUBJECT_COUNTS = {
-  "Sociology": 200,
+  "Sociology": 199,
   "Culturology": 287,
-  "History": 155,
+  "History": 154
 };
